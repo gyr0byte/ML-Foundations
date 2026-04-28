@@ -1,10 +1,10 @@
 # Machine Learning Journey
 
-This repository is a lightweight notebook-based workspace for learning core Python data science and machine learning concepts. At the moment, it focuses on NumPy fundamentals through a single hands-on notebook.
+This repository is a lightweight notebook-based workspace for learning core Python data science and machine learning concepts. At the moment, it focuses on NumPy fundamentals through a hands-on notebook.
 
 ## What is in this repo
 
-- `NumPy/numpy_arrays.ipynb` - a beginner-friendly notebook covering basic array creation and indexing with NumPy.
+- `NumPy/1numpy_arrays.ipynb` - a beginner-friendly notebook covering basic array creation, indexing, slicing, and multi-indexing with NumPy.
 
 ## Notebook overview
 
@@ -12,8 +12,9 @@ The current notebook demonstrates:
 
 - importing NumPy with `import numpy as np`
 - creating one-dimensional arrays with `np.array(...)`
-- mixing integer and floating-point values in arrays
 - accessing array elements by index
+- slicing arrays with step values and ranges
+- selecting multiple positions from an array
 
 ## Requirements
 
@@ -24,7 +25,7 @@ The current notebook demonstrates:
 ## Getting started
 
 1. Open the workspace in VS Code.
-2. Open `NumPy/numpy_arrays.ipynb`.
+2. Open `NumPy/1numpy_arrays.ipynb`.
 3. Select a Python kernel.
 4. Run the notebook cells from top to bottom.
 
@@ -63,7 +64,7 @@ print(a[0], a[1])
 .
 ├── README.md
 └── NumPy/
-	└── numpy_arrays.ipynb
+    └── 1numpy_arrays.ipynb
 ```
 
 ## Notes
