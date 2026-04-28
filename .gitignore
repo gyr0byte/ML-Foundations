@@ -1,0 +1,131 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# IPython
+ipython_config.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.dmypy.log
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Editors
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# Databases
+*.sqlite3
+*.db
+
+# Data / outputs (optional - remove if you want to version small datasets)
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.npz
+
+# Matplotlib cache
+.cache/matplotlib
+
+# Conda
+.conda/
+conda-meta/
+
+# Compiled objects
+*.o
+*.obj
+*.dll
