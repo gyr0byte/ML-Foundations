@@ -26,6 +26,41 @@ The current phase is **NumPy fundamentals**, with a focus on understanding array
     └── 3dimension_shapes.ipynb
 ```
 
+## Files & Folders
+
+This section lists repository items that exist now, and recommended files/folders you may want to add as the project grows.
+
+- Present:
+  - `README.md` — this file with project overview and roadmap.
+  - `NumPy/` — notebook collection for NumPy fundamentals (`1numpy_arrays.ipynb`, `2arrays_types.ipynb`, `3dimension_shapes.ipynb`).
+
+- Recommended (not present yet):
+  - `requirements.txt` — pinned Python dependencies for easy setup (`numpy`, `jupyter`, ...).
+  - `LICENSE` — add an open-source license such as MIT if you plan to share publicly.
+  - `.gitignore` — ignore typical Python artifacts (e.g. `.venv/`, `__pycache__/`, `.ipynb_checkpoints/`).
+  - `Pandas/` — future notebook folder for pandas examples and exercises.
+  - `projects/` — folder for end-to-end mini-projects (regression, classification starters).
+
+How to add a quick `requirements.txt`:
+
+```bash
+pip freeze | grep -E "numpy|jupyter|pandas|matplotlib|scikit-learn" > requirements.txt
+```
+
+Add a basic `.gitignore` for Python projects (example):
+
+```
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+```
+
 ## Learning Modules
 
 ### 1) NumPy Arrays
