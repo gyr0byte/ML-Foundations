@@ -326,27 +326,6 @@ This is a personal learning repository, but suggestions and improvements are wel
 - 🎨 Visual improvements and visualizations
 - 📊 New topics or modules
 
-## 📚 Resources
-
-### Official Documentation
-
-- [NumPy Documentation](https://numpy.org/doc/)
-- [NumPy User Guide](https://numpy.org/doc/stable/user/index.html)
-- [Jupyter Documentation](https://jupyter.org/documentation)
-
-### Learning Resources
-
-- [NumPy Tutorial by W3Schools](https://www.w3schools.com/python/numpy/default.asp)
-- [DataCamp NumPy Courses](https://www.datacamp.com/)
-- [Real Python NumPy Guides](https://realpython.com/numpy-tutorial/)
-- [3Blue1Brown Linear Algebra](https://www.3blue1brown.com/series/essence-of-linear-algebra)
-
-### Recommended Books
-
-- "Python for Data Analysis" by Wes McKinney
-- "Hands-On Machine Learning" by Aurélien Géron
-- "Introduction to Statistical Learning" by James, Witten, et al.
-
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
