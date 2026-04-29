@@ -105,9 +105,9 @@ Core libraries used in this project:
 
 - **NumPy** — Numerical computing
 - **Jupyter** — Interactive notebooks
-- **Matplotlib** — Data visualization
+- **Matplotlib** — Data visualization (upcoming)
 - **Pandas** — Data manipulation (upcoming)
-- **Scikit-Learn** — Machine learning (upcoming)
+- **Seaborn** — Advance Visualization (upcoming)
 
 See `requirements.txt` for the complete list of pinned versions.
 
