@@ -19,7 +19,6 @@
 - [Roadmap](#roadmap)
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
-- [Resources](#resources)
 - [License](#license)
 
 ## 📚 Overview
@@ -32,7 +31,8 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **8 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+-- ✅ **10 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -44,17 +44,19 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 ```
 Machine Learning/
 ├── README.md                      # Project overview and guide
-├── requirements.txt              # Python dependencies
-├── .gitignore                    # Git ignore patterns
-└── NumPy/                        # NumPy fundamentals modules
-    ├── 1numpy_arrays.ipynb              # Arrays basics
-    ├── 2arrays_types.ipynb              # Data types (dtypes)
-    ├── 3dimension_shapes.ipynb          # Dimensions & shapes
-    ├── 4indexing_and_slicing.ipynb      # Advanced indexing
-    ├── 5statistics.ipynb                # Statistical operations
-    ├── 6broadcasting_vectorize.ipynb    # Broadcasting & vectorization
-    ├── 7boolean_arrays.ipynb            # Boolean indexing
-    └── 8linear_algebra.ipynb            # Linear algebra operations
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Git ignore patterns
+└── NumPy/                         # NumPy fundamentals modules
+   ├── 1_numpy_arrays.ipynb               # Arrays basics
+   ├── 2_arrays_types.ipynb               # Data types (dtypes)
+   ├── 3_dimension_shapes.ipynb           # Dimensions & shapes
+   ├── 4_indexing_and_slicing.ipynb       # Advanced indexing
+   ├── 5_statistics.ipynb                 # Statistical operations
+   ├── 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
+   ├── 7_boolean_arrays.ipynb             # Boolean indexing
+   ├── 8_linear_algebra.ipynb             # Linear algebra operations
+   ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
+   └── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -119,7 +121,7 @@ Follow the installation steps above. Ensure your Python environment is activated
 
 ### Step 2: Start with the Basics
 
-Begin with **`NumPy/1numpy_arrays.ipynb`** for an introduction to NumPy arrays and foundational concepts.
+Begin with **`NumPy/1_numpy_arrays.ipynb`** for an introduction to NumPy arrays and foundational concepts.
 
 ### Step 3: Progress Sequentially
 
@@ -141,7 +143,7 @@ Master the NumPy library — the cornerstone of Python's scientific computing ec
 
 #### Module 1: NumPy Arrays Basics
 
-**File:** `NumPy/1numpy_arrays.ipynb`
+**File:** `NumPy/1_numpy_arrays.ipynb`
 
 Learn how to create and work with NumPy arrays, the fundamental data structure.
 
@@ -157,7 +159,7 @@ Learn how to create and work with NumPy arrays, the fundamental data structure.
 
 #### Module 2: Array Data Types (dtypes)
 
-**File:** `NumPy/2arrays_types.ipynb`
+**File:** `NumPy/2_arrays_types.ipynb`
 
 Understand data types and how they affect memory usage and computation.
 
@@ -173,7 +175,7 @@ Understand data types and how they affect memory usage and computation.
 
 #### Module 3: Dimensions and Shapes
 
-**File:** `NumPy/3dimension_shapes.ipynb`
+**File:** `NumPy/3_dimension_shapes.ipynb`
 
 Master 1D, 2D, and multi-dimensional arrays.
 
@@ -189,7 +191,7 @@ Master 1D, 2D, and multi-dimensional arrays.
 
 #### Module 4: Indexing and Slicing
 
-**File:** `NumPy/4indexing_and_slicing.ipynb`
+**File:** `NumPy/4_indexing_and_slicing.ipynb`
 
 Advanced techniques for accessing and selecting array elements.
 
@@ -205,7 +207,7 @@ Advanced techniques for accessing and selecting array elements.
 
 #### Module 5: Statistics and Aggregation
 
-**File:** `NumPy/5statistics.ipynb`
+**File:** `NumPy/5_statistics.ipynb`
 
 Perform statistical calculations on arrays.
 
@@ -221,7 +223,7 @@ Perform statistical calculations on arrays.
 
 #### Module 6: Broadcasting and Vectorization
 
-**File:** `NumPy/6broadcasting_vectorize.ipynb`
+**File:** `NumPy/6_broadcasting_vectorize.ipynb`
 
 Harness NumPy's power through broadcasting and vectorized operations.
 
@@ -237,7 +239,7 @@ Harness NumPy's power through broadcasting and vectorized operations.
 
 #### Module 7: Boolean Arrays and Conditional Operations
 
-**File:** `NumPy/7boolean_arrays.ipynb`
+**File:** `NumPy/7_boolean_arrays.ipynb`
 
 Use boolean indexing for powerful data filtering.
 
@@ -253,7 +255,7 @@ Use boolean indexing for powerful data filtering.
 
 #### Module 8: Linear Algebra
 
-**File:** `NumPy/8linear_algebra.ipynb`
+**File:** `NumPy/8_linear_algebra.ipynb`
 
 Essential linear algebra operations for machine learning.
 
