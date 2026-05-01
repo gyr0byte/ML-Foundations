@@ -31,7 +31,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **12 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+- ✅ **13 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -56,8 +56,9 @@ Machine Learning/
     ├── 8_linear_algebra.ipynb             # Linear algebra operations
     ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
     ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
-    ├── 11_numpy_operations.ipynb          # NumPy operations overview
-    └── 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
+   ├── 11_numpy_operations.ipynb          # NumPy operations overview
+   ├── 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
+   └── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -106,7 +107,7 @@ Machine Learning/
 ## 🎯 Getting Started
 
 1. Start with `NumPy/1_numpy_arrays.ipynb`.
-2. Continue sequentially through `NumPy/12_Reshaping_inDepth.ipynb`.
+2. Continue sequentially through `NumPy/13_plotting_graphs_numpy.ipynb`.
 3. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
@@ -161,11 +162,15 @@ Machine Learning/
 
 **File:** `NumPy/12_Reshaping_inDepth.ipynb`
 
+#### Module 13: Plotting Graphs with NumPy
+
+**File:** `NumPy/13_plotting_graphs_numpy.ipynb`
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
-- [x] NumPy fundamentals (12 modules)
+- [x] NumPy fundamentals (13 modules)
 
 ### Upcoming Phases 🚧
 
