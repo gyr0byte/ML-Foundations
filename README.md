@@ -118,49 +118,73 @@ Machine Learning/
 
 **File:** `NumPy/1_numpy_arrays.ipynb`
 
+Create arrays, inspect shapes, and compare arrays to Python lists.
+
 #### Module 2: Array Data Types (dtypes)
 
 **File:** `NumPy/2_arrays_types.ipynb`
+
+Explore dtypes, casting, and how types affect memory and precision.
 
 #### Module 3: Dimensions and Shapes
 
 **File:** `NumPy/3_dimension_shapes.ipynb`
 
+Understand dimensionality, shapes, and the structure of N-D arrays.
+
 #### Module 4: Indexing and Slicing
 
 **File:** `NumPy/4_indexing_slicing_iteration.ipynb`
+
+Select, slice, and iterate through arrays efficiently.
 
 #### Module 5: Statistics and Aggregation
 
 **File:** `NumPy/5_statistics.ipynb`
 
+Compute common statistics and summarize arrays quickly.
+
 #### Module 6: Broadcasting and Vectorization
 
 **File:** `NumPy/6_broadcasting_vectorize.ipynb`
+
+Use broadcasting rules and vectorized ops to avoid loops.
 
 #### Module 7: Boolean Arrays and Conditional Operations
 
 **File:** `NumPy/7_boolean_arrays.ipynb`
 
+Filter arrays with boolean masks and combine conditions.
+
 #### Module 8: Linear Algebra
 
 **File:** `NumPy/8_linear_algebra.ipynb`
+
+Work with dot products, matrices, and core linear algebra tools.
 
 #### Module 9: Size of Objects in Memory
 
 **File:** `NumPy/9_size_of_objectsInMemory.ipynb`
 
+Estimate memory usage and compare array storage costs.
+
 #### Module 10: Useful NumPy Functions
 
 **File:** `NumPy/10_useful_numpy_function.ipynb`
+
+Practice handy utilities for building and inspecting arrays.
 
 #### Module 11: NumPy Operations
 
 **File:** `NumPy/11_numpy_operations.ipynb`
 
+Apply core element-wise, reduction, and shape operations.
+
 #### Module 12: Reshaping In Depth
 
 **File:** `NumPy/12_Reshaping_inDepth.ipynb`
+
+Reshape, ravel, and reorder arrays for real workflows.
 
 #### Module 13: Plotting Graphs with NumPy
 
