@@ -166,6 +166,8 @@ Machine Learning/
 
 **File:** `NumPy/13_plotting_graphs_numpy.ipynb`
 
+Quick visualizations and plotting practice using NumPy-generated data.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
