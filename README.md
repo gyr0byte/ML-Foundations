@@ -31,7 +31,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **11 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+- ✅ **12 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
 
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
@@ -56,8 +56,9 @@ Machine Learning/
    ├── 7_boolean_arrays.ipynb             # Boolean indexing
    ├── 8_linear_algebra.ipynb             # Linear algebra operations
    ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
-   ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
-   └── 11_numpy_operations.ipynb          # NumPy operations overview
+  ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
+  ├── 11_numpy_operations.ipynb          # NumPy operations overview
+  └── 12_Reshaping_inDepth.ipynb          # Reshaping deep dive
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -70,10 +71,10 @@ Machine Learning/
 
 ### Step 3: Progress Sequentially
 
-Work through the notebooks in order (1 → 11). Each module builds on previous concepts:
+Work through the notebooks in order (1 → 12). Each module builds on previous concepts:
 
 ```
-Arrays → Types → Dimensions → Indexing → Statistics → Broadcasting → Boolean → Linear Algebra → Memory → Utilities → Operations
+Arrays → Types → Dimensions → Indexing → Statistics → Broadcasting → Boolean → Linear Algebra → Memory → Utilities → Operations → Reshaping
 ```
 
 ### Step 4: Hands-On Learning
@@ -259,11 +260,26 @@ Practice core operations that show up across ML and data workflows.
 
 ---
 
+#### Module 12: Reshaping In Depth
+
+**File:** `NumPy/12_Reshaping_inDepth.ipynb`
+
+Deep dive into reshaping strategies for real-world workflows.
+
+**Topics:**
+
+- Reshaping with `reshape()` and `ravel()`
+- Resizing vs reshaping
+- Order parameter (`C` vs `F`)
+- Practical reshaping patterns
+
+---
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
-- [x] NumPy fundamentals (11 modules)
+- [x] NumPy fundamentals (12 modules)
 
 ### Upcoming Phases 🚧
 
@@ -388,7 +404,7 @@ Then open notebooks from the `NumPy/` directory.
 1. Start with `1_numpy_arrays.ipynb`.
 2. Continue with `2_arrays_types.ipynb`.
 3. Move to `3_dimension_shapes.ipynb`.
-4. Continue sequentially through `11_numpy_operations.ipynb`.
+4. Continue sequentially through `12_Reshaping_inDepth.ipynb`.
 5. Run cells top-to-bottom and modify examples to test your understanding.
 6. Re-run sections after edits to verify outputs and strengthen retention.
 
