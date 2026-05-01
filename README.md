@@ -31,7 +31,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
--- ✅ **10 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+- ✅ **11 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
 
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
@@ -56,7 +56,8 @@ Machine Learning/
    ├── 7_boolean_arrays.ipynb             # Boolean indexing
    ├── 8_linear_algebra.ipynb             # Linear algebra operations
    ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
-   └── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
+   ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
+   └── 11_numpy_operations.ipynb          # NumPy operations overview
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -125,10 +126,10 @@ Begin with **`NumPy/1_numpy_arrays.ipynb`** for an introduction to NumPy arrays 
 
 ### Step 3: Progress Sequentially
 
-Work through the notebooks in order (1 → 8). Each module builds on previous concepts:
+Work through the notebooks in order (1 → 11). Each module builds on previous concepts:
 
 ```
-Arrays → Types → Dimensions → Indexing → Statistics → Broadcasting → Boolean → Linear Algebra
+Arrays → Types → Dimensions → Indexing → Statistics → Broadcasting → Boolean → Linear Algebra → Memory → Utilities → Operations
 ```
 
 ### Step 4: Hands-On Learning
@@ -269,11 +270,56 @@ Essential linear algebra operations for machine learning.
 
 ---
 
+#### Module 9: Size of Objects in Memory
+
+**File:** `NumPy/9_size_of_objectsInMemory.ipynb`
+
+Explore how array size and data types affect memory usage.
+
+**Topics:**
+
+- Estimating array memory footprint
+- Comparing dtypes and storage size
+- Understanding bytes per element
+- Practical tips for memory efficiency
+
+---
+
+#### Module 10: Useful NumPy Functions
+
+**File:** `NumPy/10_useful_numpy_function.ipynb`
+
+Learn a toolbox of NumPy utilities for everyday workflows.
+
+**Topics:**
+
+- Common utility functions and helpers
+- Array creation shortcuts
+- Sorting and searching helpers
+- Performance-friendly patterns
+
+---
+
+#### Module 11: NumPy Operations
+
+**File:** `NumPy/11_numpy_operations.ipynb`
+
+Practice core operations that show up across ML and data workflows.
+
+**Topics:**
+
+- Element-wise operations
+- Reduction operations
+- Shape-altering operations
+- Combining arrays and outputs
+
+---
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
-- [x] NumPy fundamentals (8 modules)
+- [x] NumPy fundamentals (11 modules)
 
 ### Upcoming Phases 🚧
 
@@ -395,11 +441,12 @@ Then open notebooks from the `NumPy/` directory.
 
 ## How to Use This Repository
 
-1. Start with `1numpy_arrays.ipynb`.
-2. Continue with `2arrays_types.ipynb`.
-3. Finish the current module with `3dimension_shapes.ipynb`.
-4. Run cells top-to-bottom and modify examples to test your understanding.
-5. Re-run sections after edits to verify outputs and strengthen retention.
+1. Start with `1_numpy_arrays.ipynb`.
+2. Continue with `2_arrays_types.ipynb`.
+3. Move to `3_dimension_shapes.ipynb`.
+4. Continue sequentially through `11_numpy_operations.ipynb`.
+5. Run cells top-to-bottom and modify examples to test your understanding.
+6. Re-run sections after edits to verify outputs and strengthen retention.
 
 ## Recommended Learning Workflow
 
