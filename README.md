@@ -421,7 +421,7 @@ Then open notebooks from the `NumPy/` directory.
 - [x] NumPy basics: arrays and indexing
 - [x] NumPy dtypes and type behavior
 - [x] Dimensions and shapes
-- [ ] Reshaping and broadcasting deep dive
+- [x] Reshaping and broadcasting deep dive
 - [ ] Vectorized operations mini-projects
 - [ ] Pandas fundamentals
 - [ ] Data visualization fundamentals
@@ -438,7 +438,6 @@ Machine learning models are only as strong as your understanding of data structu
 
 ## Next Planned Additions
 
-- `NumPy/4reshaping_broadcasting.ipynb`
 - `NumPy/5vectorized_operations.ipynb`
 - A dedicated `Pandas/` learning track
 - Starter project folders for regression/classification workflows
