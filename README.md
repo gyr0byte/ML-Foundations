@@ -50,7 +50,7 @@ Machine Learning/
    ├── 1_numpy_arrays.ipynb               # Arrays basics
    ├── 2_arrays_types.ipynb               # Data types (dtypes)
    ├── 3_dimension_shapes.ipynb           # Dimensions & shapes
-   ├── 4_indexing_and_slicing.ipynb       # Advanced indexing
+   ├── 4_indexing_slicing_iteration.ipynb # Advanced indexing
    ├── 5_statistics.ipynb                 # Statistical operations
    ├── 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
    ├── 7_boolean_arrays.ipynb             # Boolean indexing
@@ -191,7 +191,7 @@ Master 1D, 2D, and multi-dimensional arrays.
 
 #### Module 4: Indexing and Slicing
 
-**File:** `NumPy/4_indexing_and_slicing.ipynb`
+**File:** `NumPy/4_indexing_slicing_iteration.ipynb`
 
 Advanced techniques for accessing and selecting array elements.
 
