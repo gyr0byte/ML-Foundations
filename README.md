@@ -31,7 +31,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **13 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+- ✅ **14 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -44,6 +44,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 Machine Learning/
 ├── README.md                      # Project overview and guide
 ├── requirements.txt               # Python dependencies
+├── LICENSE                        # License for reuse and distribution
 ├── .gitignore                     # Git ignore patterns
 └── NumPy/                         # NumPy fundamentals modules
     ├── 1_numpy_arrays.ipynb               # Arrays basics
@@ -55,10 +56,12 @@ Machine Learning/
     ├── 7_boolean_arrays.ipynb             # Boolean indexing
     ├── 8_linear_algebra.ipynb             # Linear algebra operations
     ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
-    ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
+   ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
    ├── 11_numpy_operations.ipynb          # NumPy operations overview
    ├── 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
-   └── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
+   ├── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
+   └── numpy_exercises/                  # Practice notebooks
+      └── valid_sudoku.ipynb            # NumPy practice exercise
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -192,11 +195,20 @@ Reshape, ravel, and reorder arrays for real workflows.
 
 Quick visualizations and plotting practice using NumPy-generated data.
 
+### NumPy Exercises
+
+#### Exercise 1: Valid Sudoku
+
+**File:** `NumPy/numpy_exercises/valid_sudoku.ipynb`
+
+Practice NumPy logic and indexing with a classic Sudoku validation task.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
+- [x] NumPy exercises (1 notebook)
 
 ### Upcoming Phases 🚧
 
