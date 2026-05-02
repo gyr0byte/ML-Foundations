@@ -31,7 +31,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **15 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+- ✅ **16 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -62,6 +62,7 @@ Machine Learning/
    ├── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
    └── numpy_exercises/                   # Practice notebooks
       ├── general_qns.ipynb              # Mixed practice questions
+      ├── nepali_cricket_score.ipynb     # Practice with real-world data
       └── valid_sudoku.ipynb             # NumPy practice exercise
 ```
 
@@ -210,12 +211,18 @@ Practice NumPy logic and indexing with a classic Sudoku validation task.
 
 Mixed practice questions to reinforce core NumPy concepts.
 
+#### Exercise 3: Nepali Cricket Score
+
+**File:** `NumPy/numpy_exercises/nepali_cricket_score.ipynb`
+
+Practice data manipulation on a cricket score dataset.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
-- [x] NumPy exercises (2 notebooks)
+- [x] NumPy exercises (3 notebooks)
 
 ### Upcoming Phases 🚧
 
