@@ -16,6 +16,7 @@
 - [Getting Started](#getting-started)
 - [Learning Modules](#learning-modules)
   - [NumPy Fundamentals](#numpy-fundamentals)
+  - [Pandas Fundamentals](#pandas-fundamentals)
 - [Roadmap](#roadmap)
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
@@ -31,7 +32,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **16 Comprehensive NumPy Notebooks** — Progressive learning from basics to advanced topics
+- ✅ **17 Notebooks Total** — 13 NumPy, 3 exercises, 1 Pandas
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -46,7 +47,7 @@ Machine Learning/
 ├── requirements.txt               # Python dependencies
 ├── LICENSE                        # License for reuse and distribution
 ├── .gitignore                     # Git ignore patterns
-└── NumPy/                         # NumPy fundamentals modules
+├── NumPy/                         # NumPy fundamentals modules
     ├── 1_numpy_arrays.ipynb               # Arrays basics
     ├── 2_arrays_types.ipynb               # Data types (dtypes)
     ├── 3_dimension_shapes.ipynb           # Dimensions & shapes
@@ -64,6 +65,8 @@ Machine Learning/
       ├── general_qns.ipynb              # Mixed practice questions
       ├── nepali_cricket_score.ipynb     # Practice with real-world data
       └── valid_sudoku.ipynb             # NumPy practice exercise
+└── Pandas/                        # Pandas fundamentals modules
+   └── 1_series.ipynb                     # Series basics
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -113,7 +116,8 @@ Machine Learning/
 
 1. Start with `NumPy/1_numpy_arrays.ipynb`.
 2. Continue sequentially through `NumPy/13_plotting_graphs_numpy.ipynb`.
-3. Run cells top-to-bottom and experiment with the examples.
+3. Begin Pandas with `Pandas/1_series.ipynb`.
+4. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -217,12 +221,21 @@ Mixed practice questions to reinforce core NumPy concepts.
 
 Practice data manipulation on a cricket score dataset.
 
+### Pandas Fundamentals
+
+#### Module 1: Series Basics
+
+**File:** `Pandas/1_series.ipynb`
+
+Create, index, and manipulate pandas Series.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
+- [x] Pandas fundamentals (1 notebook)
 
 ### Upcoming Phases 🚧
 
