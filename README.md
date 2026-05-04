@@ -32,7 +32,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **18 Notebooks Total** — 13 NumPy, 3 exercises, 2 Pandas
+- ✅ **19 Notebooks Total** — 13 NumPy, 3 exercises, 3 Pandas
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -67,7 +67,8 @@ Machine Learning/
       └── valid_sudoku.ipynb             # NumPy practice exercise
 └── Pandas/                        # Pandas fundamentals modules
    ├── 1_series.ipynb                     # Series basics
-   └── 2_DataFrames.ipynb                 # DataFrames basics
+   ├── 2_DataFrames.ipynb                 # DataFrames basics
+   └── 3_Missing_Data.ipynb               # Missing data handling
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -119,7 +120,8 @@ Machine Learning/
 2. Continue sequentially through `NumPy/13_plotting_graphs_numpy.ipynb`.
 3. Begin Pandas with `Pandas/1_series.ipynb`.
 4. Continue with `Pandas/2_DataFrames.ipynb`.
-5. Run cells top-to-bottom and experiment with the examples.
+5. Continue with `Pandas/3_Missing_Data.ipynb`.
+6. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -237,13 +239,19 @@ Create, index, and manipulate pandas Series.
 
 Build and manipulate DataFrames with columns and indexes.
 
+#### Module 3: Missing Data
+
+**File:** `Pandas/3_Missing_Data.ipynb`
+
+Detect, clean, and fill missing values in datasets.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
-- [x] Pandas fundamentals (2 notebooks)
+- [x] Pandas fundamentals (3 notebooks)
 
 ### Upcoming Phases 🚧
 
