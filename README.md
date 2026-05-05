@@ -32,7 +32,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **19 Notebooks Total** — 13 NumPy, 3 exercises, 3 Pandas
+- ✅ **20 Notebooks Total** — 13 NumPy, 3 exercises, 4 Pandas
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -68,7 +68,8 @@ Machine Learning/
 └── Pandas/                        # Pandas fundamentals modules
    ├── 1_series.ipynb                     # Series basics
    ├── 2_DataFrames.ipynb                 # DataFrames basics
-   └── 3_Missing_Data.ipynb               # Missing data handling
+   ├── 3_Missing_Data.ipynb               # Missing data handling
+   └── 4_Merging_Joining_Concatination.ipynb # Merging and joining
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -121,7 +122,8 @@ Machine Learning/
 3. Begin Pandas with `Pandas/1_series.ipynb`.
 4. Continue with `Pandas/2_DataFrames.ipynb`.
 5. Continue with `Pandas/3_Missing_Data.ipynb`.
-6. Run cells top-to-bottom and experiment with the examples.
+6. Continue with `Pandas/4_Merging_Joining_Concatination.ipynb`.
+7. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -245,13 +247,19 @@ Build and manipulate DataFrames with columns and indexes.
 
 Detect, clean, and fill missing values in datasets.
 
+#### Module 4: Merging, Joining, and Concatenation
+
+**File:** `Pandas/4_Merging_Joining_Concatination.ipynb`
+
+Combine datasets with merge, join, and concat patterns.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
-- [x] Pandas fundamentals (3 notebooks)
+- [x] Pandas fundamentals (4 notebooks)
 
 ### Upcoming Phases 🚧
 
