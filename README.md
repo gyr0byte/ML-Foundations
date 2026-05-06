@@ -32,7 +32,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **22 Notebooks Total** — 13 NumPy, 3 exercises, 6 Pandas
+- ✅ **23 Notebooks Total** — 13 NumPy, 3 exercises, 7 Pandas
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -71,7 +71,8 @@ Machine Learning/
     ├── 3_Missing_Data.ipynb               # Missing data handling
     ├── 4_Merging_Joining_Concatination.ipynb # Merging and joining
     ├── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
-    └── 6_pivot_tables.ipynb               # Pivot tables and reshaping
+   ├── 6_pivot_tables.ipynb               # Pivot tables and reshaping
+   └── 7_Operations.ipynb                 # Pandas operations
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -127,7 +128,8 @@ Machine Learning/
 6. Continue with `Pandas/4_Merging_Joining_Concatination.ipynb`.
 7. Continue with `Pandas/5_GroupByAggregation.ipynb`.
 8. Continue with `Pandas/6_pivot_tables.ipynb`.
-9. Run cells top-to-bottom and experiment with the examples.
+9. Continue with `Pandas/7_Operations.ipynb`.
+10. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -269,13 +271,25 @@ Summarize and aggregate data with GroupBy workflows.
 
 Create and manipulate pivot tables for data reshaping.
 
+#### Module 7: Operations
+
+**File:** `Pandas/7_Operations.ipynb`
+
+Apply common Pandas operations for data transformation.
+
+#### Module 6: Pivot Tables
+
+**File:** `Pandas/6_pivot_tables.ipynb`
+
+Create and manipulate pivot tables for data reshaping.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
-- [x] Pandas fundamentals (6 notebooks)
+- [x] Pandas fundamentals (7 notebooks)
 
 ### Upcoming Phases 🚧
 
