@@ -32,7 +32,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **21 Notebooks Total** — 13 NumPy, 3 exercises, 5 Pandas
+- ✅ **22 Notebooks Total** — 13 NumPy, 3 exercises, 6 Pandas
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -66,11 +66,12 @@ Machine Learning/
       ├── nepali_cricket_score.ipynb     # Practice with real-world data
       └── valid_sudoku.ipynb             # NumPy practice exercise
 └── Pandas/                        # Pandas fundamentals modules
-   ├── 1_series.ipynb                     # Series basics
-   ├── 2_DataFrames.ipynb                 # DataFrames basics
-   ├── 3_Missing_Data.ipynb               # Missing data handling
-   ├── 4_Merging_Joining_Concatination.ipynb # Merging and joining
-   └── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
+    ├── 1_series.ipynb                     # Series basics
+    ├── 2_DataFrames.ipynb                 # DataFrames basics
+    ├── 3_Missing_Data.ipynb               # Missing data handling
+    ├── 4_Merging_Joining_Concatination.ipynb # Merging and joining
+    ├── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
+    └── 6_pivot_tables.ipynb               # Pivot tables and reshaping
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -125,7 +126,8 @@ Machine Learning/
 5. Continue with `Pandas/3_Missing_Data.ipynb`.
 6. Continue with `Pandas/4_Merging_Joining_Concatination.ipynb`.
 7. Continue with `Pandas/5_GroupByAggregation.ipynb`.
-8. Run cells top-to-bottom and experiment with the examples.
+8. Continue with `Pandas/6_pivot_tables.ipynb`.
+9. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -261,13 +263,19 @@ Combine datasets with merge, join, and concat patterns.
 
 Summarize and aggregate data with GroupBy workflows.
 
+#### Module 6: Pivot Tables
+
+**File:** `Pandas/6_pivot_tables.ipynb`
+
+Create and manipulate pivot tables for data reshaping.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
-- [x] Pandas fundamentals (5 notebooks)
+- [x] Pandas fundamentals (6 notebooks)
 
 ### Upcoming Phases 🚧
 
