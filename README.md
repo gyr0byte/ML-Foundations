@@ -32,7 +32,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **20 Notebooks Total** — 13 NumPy, 3 exercises, 4 Pandas
+- ✅ **21 Notebooks Total** — 13 NumPy, 3 exercises, 5 Pandas
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -69,7 +69,8 @@ Machine Learning/
    ├── 1_series.ipynb                     # Series basics
    ├── 2_DataFrames.ipynb                 # DataFrames basics
    ├── 3_Missing_Data.ipynb               # Missing data handling
-   └── 4_Merging_Joining_Concatination.ipynb # Merging and joining
+   ├── 4_Merging_Joining_Concatination.ipynb # Merging and joining
+   └── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -123,7 +124,8 @@ Machine Learning/
 4. Continue with `Pandas/2_DataFrames.ipynb`.
 5. Continue with `Pandas/3_Missing_Data.ipynb`.
 6. Continue with `Pandas/4_Merging_Joining_Concatination.ipynb`.
-7. Run cells top-to-bottom and experiment with the examples.
+7. Continue with `Pandas/5_GroupByAggregation.ipynb`.
+8. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -253,13 +255,19 @@ Detect, clean, and fill missing values in datasets.
 
 Combine datasets with merge, join, and concat patterns.
 
+#### Module 5: GroupBy and Aggregation
+
+**File:** `Pandas/5_GroupByAggregation.ipynb`
+
+Summarize and aggregate data with GroupBy workflows.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
-- [x] Pandas fundamentals (4 notebooks)
+- [x] Pandas fundamentals (5 notebooks)
 
 ### Upcoming Phases 🚧
 
