@@ -17,6 +17,7 @@
 - [Learning Modules](#learning-modules)
   - [NumPy Fundamentals](#numpy-fundamentals)
   - [Pandas Fundamentals](#pandas-fundamentals)
+  - [Pandas Exercises](#pandas-exercises)
 - [Roadmap](#roadmap)
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
@@ -32,7 +33,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **23 Notebooks Total** — 13 NumPy, 3 exercises, 7 Pandas
+- ✅ **24 Notebooks Total** — 13 NumPy, 3 exercises, 7 Pandas, 1 Pandas exercise
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -73,6 +74,10 @@ Machine Learning/
     ├── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
    ├── 6_pivot_tables.ipynb               # Pivot tables and reshaping
    └── 7_Operations.ipynb                 # Pandas operations
+└── Pandas/pandas_exercise/        # Pandas practice notebooks
+   ├── Countries.csv                     # Sample dataset
+   ├── feature_extraction.ipynb          # Feature extraction practice
+   └── topanime.csv                      # Sample dataset
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -129,7 +134,8 @@ Machine Learning/
 7. Continue with `Pandas/5_GroupByAggregation.ipynb`.
 8. Continue with `Pandas/6_pivot_tables.ipynb`.
 9. Continue with `Pandas/7_Operations.ipynb`.
-10. Run cells top-to-bottom and experiment with the examples.
+10. Begin Pandas exercises with `Pandas/pandas_exercise/feature_extraction.ipynb`.
+11. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -277,11 +283,13 @@ Create and manipulate pivot tables for data reshaping.
 
 Apply common Pandas operations for data transformation.
 
-#### Module 6: Pivot Tables
+### Pandas Exercises
 
-**File:** `Pandas/6_pivot_tables.ipynb`
+#### Exercise 1: Feature Extraction
 
-Create and manipulate pivot tables for data reshaping.
+**File:** `Pandas/pandas_exercise/feature_extraction.ipynb`
+
+Practice extracting and transforming features from tabular data.
 
 ## 🗺️ Roadmap
 
@@ -290,6 +298,7 @@ Create and manipulate pivot tables for data reshaping.
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
 - [x] Pandas fundamentals (7 notebooks)
+- [x] Pandas exercises (1 notebook)
 
 ### Upcoming Phases 🚧
 
