@@ -291,6 +291,8 @@ Apply common Pandas operations for data transformation.
 
 Practice extracting and transforming features from tabular data.
 
+**Datasets:** `Pandas/pandas_exercise/Countries.csv`, `Pandas/pandas_exercise/topanime.csv`
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
