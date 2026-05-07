@@ -33,7 +33,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **24 Notebooks Total** — 13 NumPy, 3 exercises, 7 Pandas, 1 Pandas exercise
+- ✅ **25 Notebooks Total** — 13 NumPy, 3 exercises, 7 Pandas, 2 Pandas exercises
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -76,6 +76,7 @@ Machine Learning/
    └── 7_Operations.ipynb                 # Pandas operations
 └── Pandas/pandas_exercise/        # Pandas practice notebooks
    ├── Countries.csv                     # Sample dataset
+   ├── Countries.ipynb                   # Country data practice
    ├── feature_extraction.ipynb          # Feature extraction practice
    └── topanime.csv                      # Sample dataset
 ```
@@ -293,6 +294,12 @@ Practice extracting and transforming features from tabular data.
 
 **Datasets:** `Pandas/pandas_exercise/Countries.csv`, `Pandas/pandas_exercise/topanime.csv`
 
+#### Exercise 2: Countries
+
+**File:** `Pandas/pandas_exercise/Countries.ipynb`
+
+Explore and analyze country-level data with pandas.
+
 ## 🗺️ Roadmap
 
 ### Current Phase ✅
@@ -300,7 +307,7 @@ Practice extracting and transforming features from tabular data.
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
 - [x] Pandas fundamentals (7 notebooks)
-- [x] Pandas exercises (1 notebook)
+- [x] Pandas exercises (2 notebooks)
 
 ### Upcoming Phases 🚧
 
