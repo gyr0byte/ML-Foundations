@@ -111,7 +111,6 @@ Thumbs.db
 
 # Data / outputs (optional - remove if you want to version small datasets)
 data/
-*.csv
 *.tsv
 *.parquet
 *.h5
