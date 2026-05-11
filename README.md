@@ -33,7 +33,7 @@ The current focus is mastering **NumPy** — the foundational library for numeri
 
 ## ✨ Features
 
-- ✅ **25 Notebooks Total** — 13 NumPy, 3 exercises, 7 Pandas, 2 Pandas exercises
+- ✅ **26 Notebooks Total** — 13 NumPy, 3 exercises, 8 Pandas, 2 Pandas exercises
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
 - ✅ **Practical Examples** — Real-world use cases and applications
@@ -73,7 +73,9 @@ Machine Learning/
     ├── 4_Merging_Joining_Concatination.ipynb # Merging and joining
     ├── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
    ├── 6_pivot_tables.ipynb               # Pivot tables and reshaping
-   └── 7_Operations.ipynb                 # Pandas operations
+   ├── 7_Operations.ipynb                 # Pandas operations
+   ├── 9_ipl_analysis.ipynb               # IPL data analysis
+   └── ipl_matches.csv                    # IPL dataset
 └── Pandas/pandas_exercise/        # Pandas practice notebooks
    ├── Countries.csv                     # Sample dataset
    ├── Countries.ipynb                   # Country data practice
@@ -135,8 +137,9 @@ Machine Learning/
 7. Continue with `Pandas/5_GroupByAggregation.ipynb`.
 8. Continue with `Pandas/6_pivot_tables.ipynb`.
 9. Continue with `Pandas/7_Operations.ipynb`.
-10. Begin Pandas exercises with `Pandas/pandas_exercise/feature_extraction.ipynb`.
-11. Run cells top-to-bottom and experiment with the examples.
+10. Continue with `Pandas/9_ipl_analysis.ipynb`.
+11. Begin Pandas exercises with `Pandas/pandas_exercise/feature_extraction.ipynb`.
+12. Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -284,6 +287,14 @@ Create and manipulate pivot tables for data reshaping.
 
 Apply common Pandas operations for data transformation.
 
+#### Module 8: IPL Analysis
+
+**File:** `Pandas/9_ipl_analysis.ipynb`
+
+Analyze IPL match data with pandas workflows.
+
+**Dataset:** `Pandas/ipl_matches.csv`
+
 ### Pandas Exercises
 
 #### Exercise 1: Feature Extraction
@@ -306,7 +317,7 @@ Explore and analyze country-level data with pandas.
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
-- [x] Pandas fundamentals (7 notebooks)
+- [x] Pandas fundamentals (8 notebooks)
 - [x] Pandas exercises (2 notebooks)
 
 ### Upcoming Phases 🚧
