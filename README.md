@@ -27,16 +27,16 @@
 
 This repository is a **notebook-first learning workspace** designed to build strong foundations in machine learning from the ground up. Each notebook focuses on a specific concept with clear explanations, practical code examples, and executable outputs that demonstrate learning progression.
 
-### Current Phase: NumPy Fundamentals ✨
+### Current Phase: Pandas Fundamentals ✨
 
-The current focus is mastering **NumPy** — the foundational library for numerical computing in Python and the backbone of all machine learning workflows.
+The current focus is mastering **Pandas** — the foundational library for data manipulation and analysis in Python and the backbone of all machine learning workflows.
 
 ## ✨ Features
 
 - ✅ **26 Notebooks Total** — 13 NumPy, 3 exercises, 8 Pandas, 2 Pandas exercises
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
-- ✅ **Practical Examples** — Real-world use cases and applications
+- ✅ **Practical Examples** — Real-world use cases and applications 
 - ✅ **Clear Documentation** — Well-commented code and detailed explanations
 - ✅ **Reproducible Environment** — Exact dependencies and setup instructions
 
