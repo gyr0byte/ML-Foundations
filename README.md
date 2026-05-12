@@ -49,23 +49,23 @@ Machine Learning/
 ├── LICENSE                        # License for reuse and distribution
 ├── .gitignore                     # Git ignore patterns
 ├── NumPy/                         # NumPy fundamentals modules
-│   ├── 1_numpy_arrays.ipynb               # Arrays basics
-│   ├── 2_arrays_types.ipynb               # Data types (dtypes)
-│   ├── 3_dimension_shapes.ipynb           # Dimensions & shapes
-│   ├── 4_indexing_slicing_iteration.ipynb # Advanced indexing
-│   ├── 5_statistics.ipynb                 # Statistical operations
-│   ├── 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
-│   ├── 7_boolean_arrays.ipynb             # Boolean indexing
-│   ├── 8_linear_algebra.ipynb             # Linear algebra operations
-│   ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
-│   ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
-│   ├── 11_numpy_operations.ipynb          # NumPy operations overview
-│   ├── 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
-│   ├── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
-│   └── numpy_exercises/                   # Practice notebooks
-│       ├── general_qns.ipynb              # Mixed practice questions
-│       ├── nepali_cricket_score.ipynb     # Practice with real-world data
-│       └── valid_sudoku.ipynb             # NumPy practice exercise
+   ├── 1_numpy_arrays.ipynb               # Arrays basics
+   ├── 2_arrays_types.ipynb               # Data types (dtypes)
+   ├── 3_dimension_shapes.ipynb           # Dimensions & shapes
+   ├── 4_indexing_slicing_iteration.ipynb # Advanced indexing
+   ├── 5_statistics.ipynb                 # Statistical operations
+   ├── 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
+   ├── 7_boolean_arrays.ipynb             # Boolean indexing
+   ├── 8_linear_algebra.ipynb             # Linear algebra operations
+   ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
+   ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
+   ├── 11_numpy_operations.ipynb          # NumPy operations overview
+   ├── 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
+   ├── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
+   └── numpy_exercises/                   # Practice notebooks
+      ├── general_qns.ipynb              # Mixed practice questions
+      ├── nepali_cricket_score.ipynb     # Practice with real-world data
+      └── valid_sudoku.ipynb             # NumPy practice exercise
 └── Pandas/                        # Pandas fundamentals modules
    ├── 1_series.ipynb                     # Series basics
    ├── 2_DataFrames.ipynb                 # DataFrames basics
