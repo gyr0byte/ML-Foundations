@@ -36,7 +36,7 @@ The current focus is mastering **Pandas** — the foundational library for data 
 - ✅ **26 Notebooks Total** — 13 NumPy, 3 exercises, 8 Pandas, 2 Pandas exercises
 - ✅ **Notebook-First Approach** — Interactive learning with live code execution
 - ✅ **Progressive Difficulty** — Each module builds on previous concepts
-- ✅ **Practical Examples** — Real-world use cases and applications 
+- ✅ **Practical Examples** — Real-world use cases and applications
 - ✅ **Clear Documentation** — Well-commented code and detailed explanations
 - ✅ **Reproducible Environment** — Exact dependencies and setup instructions
 
@@ -49,38 +49,38 @@ Machine Learning/
 ├── LICENSE                        # License for reuse and distribution
 ├── .gitignore                     # Git ignore patterns
 ├── NumPy/                         # NumPy fundamentals modules
-    ├── 1_numpy_arrays.ipynb               # Arrays basics
-    ├── 2_arrays_types.ipynb               # Data types (dtypes)
-    ├── 3_dimension_shapes.ipynb           # Dimensions & shapes
-    ├── 4_indexing_slicing_iteration.ipynb # Advanced indexing
-    ├── 5_statistics.ipynb                 # Statistical operations
-    ├── 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
-    ├── 7_boolean_arrays.ipynb             # Boolean indexing
-    ├── 8_linear_algebra.ipynb             # Linear algebra operations
-    ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
-   ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
-   ├── 11_numpy_operations.ipynb          # NumPy operations overview
-   ├── 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
-   ├── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
-   └── numpy_exercises/                   # Practice notebooks
-      ├── general_qns.ipynb              # Mixed practice questions
-      ├── nepali_cricket_score.ipynb     # Practice with real-world data
-      └── valid_sudoku.ipynb             # NumPy practice exercise
+│   ├── 1_numpy_arrays.ipynb               # Arrays basics
+│   ├── 2_arrays_types.ipynb               # Data types (dtypes)
+│   ├── 3_dimension_shapes.ipynb           # Dimensions & shapes
+│   ├── 4_indexing_slicing_iteration.ipynb # Advanced indexing
+│   ├── 5_statistics.ipynb                 # Statistical operations
+│   ├── 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
+│   ├── 7_boolean_arrays.ipynb             # Boolean indexing
+│   ├── 8_linear_algebra.ipynb             # Linear algebra operations
+│   ├── 9_size_of_objectsInMemory.ipynb    # Memory size exploration
+│   ├── 10_useful_numpy_function.ipynb     # Useful NumPy utilities
+│   ├── 11_numpy_operations.ipynb          # NumPy operations overview
+│   ├── 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
+│   ├── 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
+│   └── numpy_exercises/                   # Practice notebooks
+│       ├── general_qns.ipynb              # Mixed practice questions
+│       ├── nepali_cricket_score.ipynb     # Practice with real-world data
+│       └── valid_sudoku.ipynb             # NumPy practice exercise
 └── Pandas/                        # Pandas fundamentals modules
-    ├── 1_series.ipynb                     # Series basics
-    ├── 2_DataFrames.ipynb                 # DataFrames basics
-    ├── 3_Missing_Data.ipynb               # Missing data handling
-    ├── 4_Merging_Joining_Concatination.ipynb # Merging and joining
-    ├── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
+   ├── 1_series.ipynb                     # Series basics
+   ├── 2_DataFrames.ipynb                 # DataFrames basics
+   ├── 3_Missing_Data.ipynb               # Missing data handling
+   ├── 4_Merging_Joining_Concatination.ipynb # Merging and joining
+   ├── 5_GroupByAggregation.ipynb         # GroupBy and aggregation
    ├── 6_pivot_tables.ipynb               # Pivot tables and reshaping
    ├── 7_Operations.ipynb                 # Pandas operations
    ├── 9_ipl_analysis.ipynb               # IPL data analysis
-   └── ipl_matches.csv                    # IPL dataset
-└── Pandas/pandas_exercise/        # Pandas practice notebooks
-   ├── Countries.csv                     # Sample dataset
-   ├── Countries.ipynb                   # Country data practice
-   ├── feature_extraction.ipynb          # Feature extraction practice
-   └── topanime.csv                      # Sample dataset
+   ├── ipl_matches.csv                    # IPL dataset
+   └── pandas_exercise/                   # Pandas practice notebooks
+      ├── Countries.csv                  # Sample dataset
+      ├── Countries.ipynb                # Country data practice
+      ├── feature_extraction.ipynb       # Feature extraction practice
+      └── topanime.csv                   # Sample dataset
 ```
 
 ## 🔧 Prerequisites & Setup
@@ -96,7 +96,7 @@ Machine Learning/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/machine-learning.git
+   git clone https://github.com/gyr0byte/ML-Foundations.git
    cd "Machine Learning"
    ```
 
