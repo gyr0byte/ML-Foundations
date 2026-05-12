@@ -13,7 +13,6 @@
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Prerequisites & Setup](#prerequisites--setup)
-- [Getting Started](#getting-started)
 - [Learning Modules](#learning-modules)
   - [NumPy Fundamentals](#numpy-fundamentals)
   - [Pandas Fundamentals](#pandas-fundamentals)
@@ -25,20 +24,17 @@
 
 ## 📚 Overview
 
-This repository is a **notebook-first learning workspace** designed to build strong foundations in machine learning from the ground up. Each notebook focuses on a specific concept with clear explanations, practical code examples, and executable outputs that demonstrate learning progression.
+Notebook-first workspace for building strong ML foundations with short, focused lessons and runnable examples.
 
 ### Current Phase: Pandas Fundamentals ✨
 
-The current focus is mastering **Pandas** — the foundational library for data manipulation and analysis in Python and the backbone of all machine learning workflows.
+Current focus: **Pandas** for data manipulation and analysis.
 
 ## ✨ Features
 
-- ✅ **26 Notebooks Total** — 13 NumPy, 3 exercises, 8 Pandas, 2 Pandas exercises
-- ✅ **Notebook-First Approach** — Interactive learning with live code execution
-- ✅ **Progressive Difficulty** — Each module builds on previous concepts
-- ✅ **Practical Examples** — Real-world use cases and applications
-- ✅ **Clear Documentation** — Well-commented code and detailed explanations
-- ✅ **Reproducible Environment** — Exact dependencies and setup instructions
+- ✅ **26 notebooks** — 13 NumPy, 3 exercises, 8 Pandas, 2 Pandas exercises
+- ✅ **Hands-on** — notebook-first, progressive difficulty
+- ✅ **Reproducible** — pinned dependencies and setup steps
 
 ## 📁 Project Structure
 
@@ -87,13 +83,11 @@ Machine Learning/
 
 ### Requirements
 
-- **Python 3.8 or higher**
-- **pip** (Python package manager)
-- **Jupyter Notebook** or **JupyterLab**
+- **Python 3.8+**, **pip**, and **Jupyter Notebook/Lab**
 
 ### Installation
 
-1. **Clone the repository**
+1. **Clone**
 
    ```bash
    git clone https://github.com/gyr0byte/ML-Foundations.git "Machine Learning"
@@ -118,28 +112,16 @@ Machine Learning/
    pip install -r requirements.txt
    ```
 
-4. **Launch Jupyter Notebook**
+4. **Launch Jupyter**
 
    ```bash
    jupyter notebook
    ```
 
-   Then navigate to the `NumPy/` folder and open any notebook.
+### Getting Started
 
-## 🎯 Getting Started
-
-1. Start with `NumPy/1_numpy_arrays.ipynb`.
-2. Continue sequentially through `NumPy/13_plotting_graphs_numpy.ipynb`.
-3. Begin Pandas with `Pandas/1_series.ipynb`.
-4. Continue with `Pandas/2_DataFrames.ipynb`.
-5. Continue with `Pandas/3_Missing_Data.ipynb`.
-6. Continue with `Pandas/4_Merging_Joining_Concatination.ipynb`.
-7. Continue with `Pandas/5_GroupByAggregation.ipynb`.
-8. Continue with `Pandas/6_pivot_tables.ipynb`.
-9. Continue with `Pandas/7_Operations.ipynb`.
-10. Continue with `Pandas/9_ipl_analysis.ipynb`.
-11. Begin Pandas exercises with `Pandas/pandas_exercise/feature_extraction.ipynb`.
-12. Run cells top-to-bottom and experiment with the examples.
+- Start at `NumPy/1_numpy_arrays.ipynb`, finish NumPy, then move to Pandas.
+- Run cells top-to-bottom and experiment with the examples.
 
 ## 📖 Learning Modules
 
@@ -149,79 +131,79 @@ Machine Learning/
 
 **File:** `NumPy/1_numpy_arrays.ipynb`
 
-Create arrays, inspect shapes, and compare arrays to Python lists.
+Create arrays, inspect shapes, and compare arrays to lists.
 
 #### Module 2: Array Data Types (dtypes)
 
 **File:** `NumPy/2_arrays_types.ipynb`
 
-Explore dtypes, casting, and how types affect memory and precision.
+Explore dtypes, casting, and memory impact.
 
 #### Module 3: Dimensions and Shapes
 
 **File:** `NumPy/3_dimension_shapes.ipynb`
 
-Understand dimensionality, shapes, and the structure of N-D arrays.
+Understand dimensions and shapes.
 
 #### Module 4: Indexing and Slicing
 
 **File:** `NumPy/4_indexing_slicing_iteration.ipynb`
 
-Select, slice, and iterate through arrays efficiently.
+Select, slice, and iterate efficiently.
 
 #### Module 5: Statistics and Aggregation
 
 **File:** `NumPy/5_statistics.ipynb`
 
-Compute common statistics and summarize arrays quickly.
+Compute common statistics quickly.
 
 #### Module 6: Broadcasting and Vectorization
 
 **File:** `NumPy/6_broadcasting_vectorize.ipynb`
 
-Use broadcasting rules and vectorized ops to avoid loops.
+Use broadcasting and vectorized ops.
 
 #### Module 7: Boolean Arrays and Conditional Operations
 
 **File:** `NumPy/7_boolean_arrays.ipynb`
 
-Filter arrays with boolean masks and combine conditions.
+Filter arrays with boolean masks.
 
 #### Module 8: Linear Algebra
 
 **File:** `NumPy/8_linear_algebra.ipynb`
 
-Work with dot products, matrices, and core linear algebra tools.
+Work with dot products and matrices.
 
 #### Module 9: Size of Objects in Memory
 
 **File:** `NumPy/9_size_of_objectsInMemory.ipynb`
 
-Estimate memory usage and compare array storage costs.
+Estimate memory usage and storage costs.
 
 #### Module 10: Useful NumPy Functions
 
 **File:** `NumPy/10_useful_numpy_function.ipynb`
 
-Practice handy utilities for building and inspecting arrays.
+Practice handy array utilities.
 
 #### Module 11: NumPy Operations
 
 **File:** `NumPy/11_numpy_operations.ipynb`
 
-Apply core element-wise, reduction, and shape operations.
+Apply element-wise, reduction, and shape ops.
 
 #### Module 12: Reshaping In Depth
 
 **File:** `NumPy/12_Reshaping_inDepth.ipynb`
 
-Reshape, ravel, and reorder arrays for real workflows.
+Reshape, ravel, and reorder arrays.
 
 #### Module 13: Plotting Graphs with NumPy
 
 **File:** `NumPy/13_plotting_graphs_numpy.ipynb`
 
-Quick visualizations and plotting practice using NumPy-generated data.
+Plot NumPy-generated data.
 
 ### NumPy Exercises
 
@@ -229,13 +211,13 @@ Quick visualizations and plotting practice using NumPy-generated data.
 
 **File:** `NumPy/numpy_exercises/valid_sudoku.ipynb`
 
-Practice NumPy logic and indexing with a classic Sudoku validation task.
+Practice NumPy logic and indexing with Sudoku validation.
 
 #### Exercise 2: General Questions
 
 **File:** `NumPy/numpy_exercises/general_qns.ipynb`
 
-Mixed practice questions to reinforce core NumPy concepts.
+Mixed practice to reinforce core NumPy concepts.
 
 #### Exercise 3: Nepali Cricket Score
 
@@ -249,49 +231,49 @@ Practice data manipulation on a cricket score dataset.
 
 **File:** `Pandas/1_series.ipynb`
 
-Create, index, and manipulate pandas Series.
+Create and manipulate Series.
 
 #### Module 2: DataFrames Basics
 
 **File:** `Pandas/2_DataFrames.ipynb`
 
-Build and manipulate DataFrames with columns and indexes.
+Build and manipulate DataFrames.
 
 #### Module 3: Missing Data
 
 **File:** `Pandas/3_Missing_Data.ipynb`
 
-Detect, clean, and fill missing values in datasets.
+Detect and fill missing values.
 
 #### Module 4: Merging, Joining, and Concatenation
 
 **File:** `Pandas/4_Merging_Joining_Concatination.ipynb`
 
-Combine datasets with merge, join, and concat patterns.
+Combine datasets with merge, join, and concat.
 
 #### Module 5: GroupBy and Aggregation
 
 **File:** `Pandas/5_GroupByAggregation.ipynb`
 
-Summarize and aggregate data with GroupBy workflows.
+Summarize and aggregate with GroupBy.
 
 #### Module 6: Pivot Tables
 
 **File:** `Pandas/6_pivot_tables.ipynb`
 
-Create and manipulate pivot tables for data reshaping.
+Create and manipulate pivot tables.
 
 #### Module 7: Operations
 
 **File:** `Pandas/7_Operations.ipynb`
 
-Apply common Pandas operations for data transformation.
+Apply common Pandas operations.
 
 #### Module 8: IPL Analysis
 
 **File:** `Pandas/9_ipl_analysis.ipynb`
 
-Analyze IPL match data with pandas workflows.
+Analyze IPL match data with Pandas.
 
 **Dataset:** `Pandas/ipl_matches.csv`
 
@@ -301,7 +283,7 @@ Analyze IPL match data with pandas workflows.
 
 **File:** `Pandas/pandas_exercise/feature_extraction.ipynb`
 
-Practice extracting and transforming features from tabular data.
+Practice extracting and transforming features.
 
 **Datasets:** `Pandas/pandas_exercise/Countries.csv`, `Pandas/pandas_exercise/topanime.csv`
 
@@ -309,7 +291,7 @@ Practice extracting and transforming features from tabular data.
 
 **File:** `Pandas/pandas_exercise/Countries.ipynb`
 
-Explore and analyze country-level data with pandas.
+Explore and analyze country-level data.
 
 ## 🗺️ Roadmap
 
@@ -332,10 +314,8 @@ Explore and analyze country-level data with pandas.
 
 ## 🏆 Best Practices
 
-- Follow PEP 8 conventions
-- Use descriptive variable names
-- Keep cells focused and concise
-- Include markdown explanations
+- Follow PEP 8 and use descriptive names
+- Keep cells focused with short markdown context
 - Pin dependencies in `requirements.txt`
 
 ## 🤝 Contributing
