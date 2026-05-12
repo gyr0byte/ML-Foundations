@@ -36,49 +36,6 @@ Current focus: **Pandas** for data manipulation and analysis.
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
-## 📁 Project Structure
-
-```
-Machine Learning/
-|-- README.md                      # Project overview and guide
-|-- requirements.txt               # Python dependencies
-|-- LICENSE                        # License for reuse and distribution
-|-- .gitignore                     # Git ignore patterns
-|-- NumPy/                         # NumPy fundamentals modules
-|   |-- 1_numpy_arrays.ipynb               # Arrays basics
-|   |-- 2_arrays_types.ipynb               # Data types (dtypes)
-|   |-- 3_dimension_shapes.ipynb           # Dimensions & shapes
-|   |-- 4_indexing_slicing_iteration.ipynb # Advanced indexing
-|   |-- 5_statistics.ipynb                 # Statistical operations
-|   |-- 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
-|   |-- 7_boolean_arrays.ipynb             # Boolean indexing
-|   |-- 8_linear_algebra.ipynb             # Linear algebra operations
-|   |-- 9_size_of_objectsInMemory.ipynb    # Memory size exploration
-|   |-- 10_useful_numpy_function.ipynb     # Useful NumPy utilities
-|   |-- 11_numpy_operations.ipynb          # NumPy operations overview
-|   |-- 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
-|   |-- 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
-|   `-- numpy_exercises/                   # Practice notebooks
-|       |-- general_qns.ipynb              # Mixed practice questions
-|       |-- nepali_cricket_score.ipynb     # Practice with real-world data
-|       `-- valid_sudoku.ipynb             # NumPy practice exercise
-`-- Pandas/                        # Pandas fundamentals modules
-    |-- 1_series.ipynb                     # Series basics
-    |-- 2_DataFrames.ipynb                 # DataFrames basics
-    |-- 3_Missing_Data.ipynb               # Missing data handling
-    |-- 4_Merging_Joining_Concatination.ipynb # Merging and joining
-    |-- 5_GroupByAggregation.ipynb         # GroupBy and aggregation
-    |-- 6_pivot_tables.ipynb               # Pivot tables and reshaping
-    |-- 7_Operations.ipynb                 # Pandas operations
-    |-- 9_ipl_analysis.ipynb               # IPL data analysis
-    |-- ipl_matches.csv                    # IPL dataset
-    `-- pandas_exercise/                   # Pandas practice notebooks
-        |-- Countries.csv                  # Sample dataset
-        |-- Countries.ipynb                # Country data practice
-        |-- feature_extraction.ipynb       # Feature extraction practice
-        `-- topanime.csv                   # Sample dataset
-```
-
 ## 🔧 Prerequisites & Setup
 
 ### Requirements
@@ -127,171 +84,58 @@ Machine Learning/
 
 ### NumPy Fundamentals
 
-#### Module 1: NumPy Arrays Basics
-
-**File:** `NumPy/1_numpy_arrays.ipynb`
-
-Create arrays, inspect shapes, and compare arrays to lists.
-
-#### Module 2: Array Data Types (dtypes)
-
-**File:** `NumPy/2_arrays_types.ipynb`
-
-Explore dtypes, casting, and memory impact.
-
-#### Module 3: Dimensions and Shapes
-
-**File:** `NumPy/3_dimension_shapes.ipynb`
-
-Understand dimensions and shapes.
-
-#### Module 4: Indexing and Slicing
-
-**File:** `NumPy/4_indexing_slicing_iteration.ipynb`
-
-Select, slice, and iterate efficiently.
-
-#### Module 5: Statistics and Aggregation
-
-**File:** `NumPy/5_statistics.ipynb`
-
-Compute common statistics quickly.
-
-#### Module 6: Broadcasting and Vectorization
-
-**File:** `NumPy/6_broadcasting_vectorize.ipynb`
-
-Use broadcasting and vectorized ops.
-
-#### Module 7: Boolean Arrays and Conditional Operations
-
-**File:** `NumPy/7_boolean_arrays.ipynb`
-
-Filter arrays with boolean masks.
-
-#### Module 8: Linear Algebra
-
-**File:** `NumPy/8_linear_algebra.ipynb`
-
-Work with dot products and matrices.
-
-#### Module 9: Size of Objects in Memory
-
-**File:** `NumPy/9_size_of_objectsInMemory.ipynb`
-
-Estimate memory usage and storage costs.
-
-#### Module 10: Useful NumPy Functions
-
-**File:** `NumPy/10_useful_numpy_function.ipynb`
-
-Practice handy array utilities.
-
-#### Module 11: NumPy Operations
-
-**File:** `NumPy/11_numpy_operations.ipynb`
-
-Apply element-wise, reduction, and shape ops.
-
-#### Module 12: Reshaping In Depth
-
-**File:** `NumPy/12_Reshaping_inDepth.ipynb`
-
-Reshape, ravel, and reorder arrays.
-
-#### Module 13: Plotting Graphs with NumPy
-
-**File:** `NumPy/13_plotting_graphs_numpy.ipynb`
-
-Plot NumPy-generated data.
-
-### NumPy Exercises
-
-#### Exercise 1: Valid Sudoku
-
-**File:** `NumPy/numpy_exercises/valid_sudoku.ipynb`
-
-Practice NumPy logic and indexing with Sudoku validation.
-
-#### Exercise 2: General Questions
-
-**File:** `NumPy/numpy_exercises/general_qns.ipynb`
-
-Mixed practice to reinforce core NumPy concepts.
-
-#### Exercise 3: Nepali Cricket Score
-
-**File:** `NumPy/numpy_exercises/nepali_cricket_score.ipynb`
-
-Practice data manipulation on a cricket score dataset.
+- 13 core notebooks + 3 exercises in `NumPy/`.
 
 ### Pandas Fundamentals
 
-#### Module 1: Series Basics
-
-**File:** `Pandas/1_series.ipynb`
-
-Create and manipulate Series.
-
-#### Module 2: DataFrames Basics
-
-**File:** `Pandas/2_DataFrames.ipynb`
-
-Build and manipulate DataFrames.
-
-#### Module 3: Missing Data
-
-**File:** `Pandas/3_Missing_Data.ipynb`
-
-Detect and fill missing values.
-
-#### Module 4: Merging, Joining, and Concatenation
-
-**File:** `Pandas/4_Merging_Joining_Concatination.ipynb`
-
-Combine datasets with merge, join, and concat.
-
-#### Module 5: GroupBy and Aggregation
-
-**File:** `Pandas/5_GroupByAggregation.ipynb`
-
-Summarize and aggregate with GroupBy.
-
-#### Module 6: Pivot Tables
-
-**File:** `Pandas/6_pivot_tables.ipynb`
-
-Create and manipulate pivot tables.
-
-#### Module 7: Operations
-
-**File:** `Pandas/7_Operations.ipynb`
-
-Apply common Pandas operations.
-
-#### Module 8: IPL Analysis
-
-**File:** `Pandas/9_ipl_analysis.ipynb`
-
-Analyze IPL match data with Pandas.
-
-**Dataset:** `Pandas/ipl_matches.csv`
+- 8 core notebooks in `Pandas/`, including IPL analysis.
 
 ### Pandas Exercises
 
-#### Exercise 1: Feature Extraction
+- 2 practice notebooks in `Pandas/pandas_exercise/`.
 
-**File:** `Pandas/pandas_exercise/feature_extraction.ipynb`
+## 📁 Project Structure
 
-Practice extracting and transforming features.
-
-**Datasets:** `Pandas/pandas_exercise/Countries.csv`, `Pandas/pandas_exercise/topanime.csv`
-
-#### Exercise 2: Countries
-
-**File:** `Pandas/pandas_exercise/Countries.ipynb`
-
-Explore and analyze country-level data.
+```
+Machine Learning/
+|-- README.md                      # Project overview and guide
+|-- requirements.txt               # Python dependencies
+|-- LICENSE                        # License for reuse and distribution
+|-- .gitignore                     # Git ignore patterns
+|-- NumPy/                         # NumPy fundamentals modules
+|   |-- 1_numpy_arrays.ipynb               # Arrays basics
+|   |-- 2_arrays_types.ipynb               # Data types (dtypes)
+|   |-- 3_dimension_shapes.ipynb           # Dimensions & shapes
+|   |-- 4_indexing_slicing_iteration.ipynb # Advanced indexing
+|   |-- 5_statistics.ipynb                 # Statistical operations
+|   |-- 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
+|   |-- 7_boolean_arrays.ipynb             # Boolean indexing
+|   |-- 8_linear_algebra.ipynb             # Linear algebra operations
+|   |-- 9_size_of_objectsInMemory.ipynb    # Memory size exploration
+|   |-- 10_useful_numpy_function.ipynb     # Useful NumPy utilities
+|   |-- 11_numpy_operations.ipynb          # NumPy operations overview
+|   |-- 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
+|   |-- 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
+|   `-- numpy_exercises/                   # Practice notebooks
+|       |-- general_qns.ipynb              # Mixed practice questions
+|       |-- nepali_cricket_score.ipynb     # Practice with real-world data
+|       `-- valid_sudoku.ipynb             # NumPy practice exercise
+`-- Pandas/                        # Pandas fundamentals modules
+   |-- 1_series.ipynb                     # Series basics
+   |-- 2_DataFrames.ipynb                 # DataFrames basics
+   |-- 3_Missing_Data.ipynb               # Missing data handling
+   |-- 4_Merging_Joining_Concatination.ipynb # Merging and joining
+   |-- 5_GroupByAggregation.ipynb         # GroupBy and aggregation
+   |-- 6_pivot_tables.ipynb               # Pivot tables and reshaping
+   |-- 7_Operations.ipynb                 # Pandas operations
+   |-- 9_ipl_analysis.ipynb               # IPL data analysis
+   |-- ipl_matches.csv                    # IPL dataset
+   `-- pandas_exercise/                   # Pandas practice notebooks
+      |-- Countries.csv                  # Sample dataset
+      |-- Countries.ipynb                # Country data practice
+      |-- feature_extraction.ipynb       # Feature extraction practice
+      `-- topanime.csv                   # Sample dataset
+```
 
 ## 🗺️ Roadmap
 
