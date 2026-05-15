@@ -32,7 +32,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ## ✨ Features
 
-- ✅ **26 notebooks** — 13 NumPy, 3 exercises, 8 Pandas, 2 Pandas exercises
+- ✅ **27 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -88,7 +88,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ### Pandas Fundamentals
 
-- 8 core notebooks in `Pandas/`, including IPL analysis.
+- 9 core notebooks in `Pandas/`, including IPL analysis and company data.
 
 ### Pandas Exercises
 
@@ -128,8 +128,11 @@ Machine Learning/
    |-- 5_GroupByAggregation.ipynb         # GroupBy and aggregation
    |-- 6_pivot_tables.ipynb               # Pivot tables and reshaping
    |-- 7_Operations.ipynb                 # Pandas operations
-   |-- 9_ipl_analysis.ipynb               # IPL data analysis
-   |-- ipl_matches.csv                    # IPL dataset
+   |-- 8_ipl_analysis.ipynb               # IPL data analysis
+   |-- 9_company.ipynb                    # Company data analysis
+   |-- deliveries.csv                     # IPL deliveries dataset
+   |-- ipl_matches.csv                    # IPL matches dataset
+   |-- Fortune_500_Companies.csv          # Company dataset
    `-- pandas_exercise/                   # Pandas practice notebooks
       |-- Countries.csv                  # Sample dataset
       |-- Countries.ipynb                # Country data practice
@@ -143,7 +146,7 @@ Machine Learning/
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
-- [x] Pandas fundamentals (8 notebooks)
+- [x] Pandas fundamentals (9 notebooks)
 - [x] Pandas exercises (2 notebooks)
 
 ### Upcoming Phases 🚧
