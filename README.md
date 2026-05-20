@@ -17,6 +17,7 @@
   - [NumPy Fundamentals](#numpy-fundamentals)
   - [Pandas Fundamentals](#pandas-fundamentals)
   - [Pandas Exercises](#pandas-exercises)
+  - [Data Visualization](#data-visualization)
 - [Roadmap](#roadmap)
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
@@ -32,7 +33,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ## ✨ Features
 
-- ✅ **27 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises
+- ✅ **28 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 1 data viz
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -79,6 +80,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 - Start at `NumPy/1_numpy_arrays.ipynb`, finish NumPy, then move to Pandas.
 - Run cells top-to-bottom and experiment with the examples.
+- Move to Data Visualization with `Data Visualization/matplotlib.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -94,6 +96,10 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 - 2 practice notebooks in `Pandas/pandas_exercise/`.
 
+### Data Visualization
+
+- 1 notebook in `Data Visualization/` for Matplotlib basics.
+
 ## 📁 Project Structure
 
 ```
@@ -102,6 +108,8 @@ Machine Learning/
 |-- requirements.txt               # Python dependencies
 |-- LICENSE                        # License for reuse and distribution
 |-- .gitignore                     # Git ignore patterns
+|-- Data Visualization/            # Data visualization modules
+|   `-- matplotlib.ipynb                # Matplotlib basics
 |-- NumPy/                         # NumPy fundamentals modules
 |   |-- 1_numpy_arrays.ipynb               # Arrays basics
 |   |-- 2_arrays_types.ipynb               # Data types (dtypes)
@@ -148,6 +156,7 @@ Machine Learning/
 - [x] NumPy exercises (3 notebooks)
 - [x] Pandas fundamentals (9 notebooks)
 - [x] Pandas exercises (2 notebooks)
+- [x] Data visualization (1 notebook)
 
 ### Upcoming Phases 🚧
 
