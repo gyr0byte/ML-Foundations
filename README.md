@@ -98,7 +98,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ### Data Visualization
 
-- 1 notebook in `Data Visualization/` for Matplotlib basics.
+- 1 notebook in `Data Visualization/` covering Matplotlib basics and plotting examples.
 
 ## 📁 Project Structure
 
@@ -109,7 +109,7 @@ Machine Learning/
 |-- LICENSE                        # License for reuse and distribution
 |-- .gitignore                     # Git ignore patterns
 |-- Data Visualization/            # Data visualization modules
-|   `-- matplotlib.ipynb                # Matplotlib basics
+|   `-- matplotlib.ipynb                # Matplotlib basics and plots
 |-- NumPy/                         # NumPy fundamentals modules
 |   |-- 1_numpy_arrays.ipynb               # Arrays basics
 |   |-- 2_arrays_types.ipynb               # Data types (dtypes)
