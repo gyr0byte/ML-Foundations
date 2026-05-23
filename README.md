@@ -112,8 +112,6 @@ Machine Learning/
 |-- Data Visualization/            # Data visualization modules
 |   |-- matplotlib.ipynb                # Matplotlib basics and plots
 |   |-- Distributionplot.ipynb          # Distribution plots
-|   |-- basic_plot.png                  # Plot output image
-|   `-- zoro.jpg                        # Sample image asset
 |-- NumPy/                         # NumPy fundamentals modules
 |   |-- 1_numpy_arrays.ipynb               # Arrays basics
 |   |-- 2_arrays_types.ipynb               # Data types (dtypes)
