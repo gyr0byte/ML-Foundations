@@ -100,6 +100,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 ### Data Visualization
 
 - 2 notebooks in `Data Visualization/` covering Matplotlib basics and distribution plots.
+- Assets: `Data Visualization/basic_plot.png`, `Data Visualization/zoro.jpg`.
 
 ## 📁 Project Structure
 
