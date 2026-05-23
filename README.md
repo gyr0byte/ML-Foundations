@@ -33,7 +33,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ## ✨ Features
 
-- ✅ **28 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 1 data viz
+- ✅ **29 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 2 data viz
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -81,6 +81,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 - Start at `NumPy/1_numpy_arrays.ipynb`, finish NumPy, then move to Pandas.
 - Run cells top-to-bottom and experiment with the examples.
 - Move to Data Visualization with `Data Visualization/matplotlib.ipynb`.
+- Continue with `Data Visualization/Distributionplot.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -98,7 +99,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ### Data Visualization
 
-- 1 notebook in `Data Visualization/` covering Matplotlib basics and plotting examples.
+- 2 notebooks in `Data Visualization/` covering Matplotlib basics and distribution plots.
 
 ## 📁 Project Structure
 
@@ -109,7 +110,10 @@ Machine Learning/
 |-- LICENSE                        # License for reuse and distribution
 |-- .gitignore                     # Git ignore patterns
 |-- Data Visualization/            # Data visualization modules
-|   `-- matplotlib.ipynb                # Matplotlib basics and plots
+|   |-- matplotlib.ipynb                # Matplotlib basics and plots
+|   |-- Distributionplot.ipynb          # Distribution plots
+|   |-- basic_plot.png                  # Plot output image
+|   `-- zoro.jpg                        # Sample image asset
 |-- NumPy/                         # NumPy fundamentals modules
 |   |-- 1_numpy_arrays.ipynb               # Arrays basics
 |   |-- 2_arrays_types.ipynb               # Data types (dtypes)
@@ -156,7 +160,7 @@ Machine Learning/
 - [x] NumPy exercises (3 notebooks)
 - [x] Pandas fundamentals (9 notebooks)
 - [x] Pandas exercises (2 notebooks)
-- [x] Data visualization (1 notebook)
+- [x] Data visualization (2 notebooks)
 
 ### Upcoming Phases 🚧
 
