@@ -27,9 +27,9 @@
 
 Notebook-first workspace for building strong ML foundations with short, focused lessons and runnable examples.
 
-### Current Phase: Pandas Fundamentals ✨
+### Current Phase: Statistical Methods ✨
 
-Current focus: **Pandas** for data manipulation and analysis.
+Current focus: **Statistics** for hypothesis testing, distributions, and inference.
 
 ## ✨ Features
 
