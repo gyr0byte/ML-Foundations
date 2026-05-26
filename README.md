@@ -169,7 +169,6 @@ Machine Learning/
 
 ### Upcoming Phases 🚧
 
-- [ ] **Pandas Essentials** — Data manipulation, cleaning, and analysis
 - [ ] **Data Visualization** — Matplotlib and Seaborn for visual exploration
 - [ ] **Statistical Methods** — Hypothesis testing, distributions, and inference
 - [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
