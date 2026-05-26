@@ -33,7 +33,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ## ✨ Features
 
-- ✅ **30 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 3 data viz
+- ✅ **31 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 4 data viz
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -83,6 +83,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 - Move to Data Visualization with `Data Visualization/matplotlib.ipynb`.
 - Continue with `Data Visualization/Distributionplot.ipynb`.
 - Continue with `Data Visualization/Categoricalplot.ipynb`.
+- Continue with `Data Visualization/Matrixplot.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -100,7 +101,7 @@ Current focus: **Pandas** for data manipulation and analysis.
 
 ### Data Visualization
 
-- 3 notebooks in `Data Visualization/` covering Matplotlib basics, distribution plots, and categorical plots.
+- 4 notebooks in `Data Visualization/` covering Matplotlib basics, distribution plots, categorical plots, and matrix plots.
 - Assets: `Data Visualization/basic_plot.png`, `Data Visualization/zoro.jpg`.
 
 ## 📁 Project Structure
@@ -115,6 +116,7 @@ Machine Learning/
 |   |-- matplotlib.ipynb                # Matplotlib basics and plots
 |   |-- Distributionplot.ipynb          # Distribution plots
 |   |-- Categoricalplot.ipynb            # Categorical plots
+|   |-- Matrixplot.ipynb                 # Matrix plots
 |-- NumPy/                         # NumPy fundamentals modules
 |   |-- 1_numpy_arrays.ipynb               # Arrays basics
 |   |-- 2_arrays_types.ipynb               # Data types (dtypes)
@@ -161,7 +163,7 @@ Machine Learning/
 - [x] NumPy exercises (3 notebooks)
 - [x] Pandas fundamentals (9 notebooks)
 - [x] Pandas exercises (2 notebooks)
-- [x] Data visualization (3 notebooks)
+- [x] Data visualization (4 notebooks)
 
 ### Upcoming Phases 🚧
 
