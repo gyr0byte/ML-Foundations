@@ -33,7 +33,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ## ✨ Features
 
-- ✅ **32 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 5 data viz
+- ✅ **33 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 6 data viz
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -85,6 +85,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 - Continue with `Data Visualization/Categoricalplot.ipynb`.
 - Continue with `Data Visualization/Matrixplot.ipynb`.
 - Continue with `Data Visualization/Regression.ipynb`.
+- Continue with `Data Visualization/plotlyandcufflinks.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -102,7 +103,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ### Data Visualization
 
-- 5 notebooks in `Data Visualization/` covering Matplotlib basics, distribution plots, categorical plots, matrix plots, and regression plots.
+- 6 notebooks in `Data Visualization/` covering Matplotlib basics, distribution plots, categorical plots, matrix plots, regression plots, and Plotly/Cufflinks.
 - Assets: `Data Visualization/basic_plot.png`, `Data Visualization/zoro.jpg`.
 
 ## 📁 Project Structure
@@ -119,6 +120,7 @@ Machine Learning/
 |   |-- Categoricalplot.ipynb            # Categorical plots
 |   |-- Matrixplot.ipynb                 # Matrix plots
 |   |-- Regression.ipynb                 # Regression plots
+|   |-- plotlyandcufflinks.ipynb         # Plotly and Cufflinks
 |-- NumPy/                         # NumPy fundamentals modules
 |   |-- 1_numpy_arrays.ipynb               # Arrays basics
 |   |-- 2_arrays_types.ipynb               # Data types (dtypes)
@@ -165,7 +167,7 @@ Machine Learning/
 - [x] NumPy exercises (3 notebooks)
 - [x] Pandas fundamentals (9 notebooks)
 - [x] Pandas exercises (2 notebooks)
-- [x] Data visualization (5 notebooks)
+- [x] Data visualization (6 notebooks)
 
 ### Upcoming Phases 🚧
 
