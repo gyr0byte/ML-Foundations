@@ -33,7 +33,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ## ✨ Features
 
-- ✅ **33 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 6 data viz
+- ✅ **34 notebooks** — 13 NumPy, 3 exercises, 9 Pandas, 2 Pandas exercises, 7 data viz
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -86,6 +86,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 - Continue with `Data Visualization/Matrixplot.ipynb`.
 - Continue with `Data Visualization/Regression.ipynb`.
 - Continue with `Data Visualization/plotlyandcufflinks.ipynb`.
+- Continue with `Data Visualization/IPL_capstone_project.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -103,7 +104,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ### Data Visualization
 
-- 6 notebooks in `Data Visualization/` covering Matplotlib basics, distribution plots, categorical plots, matrix plots, regression plots, and Plotly/Cufflinks.
+- 7 notebooks in `Data Visualization/` covering Matplotlib basics, distribution plots, categorical plots, matrix plots, regression plots, Plotly/Cufflinks, and an IPL capstone.
 - Assets: `Data Visualization/basic_plot.png`, `Data Visualization/zoro.jpg`.
 
 ## 📁 Project Structure
@@ -121,6 +122,8 @@ Machine Learning/
 |   |-- Matrixplot.ipynb                 # Matrix plots
 |   |-- Regression.ipynb                 # Regression plots
 |   |-- plotlyandcufflinks.ipynb         # Plotly and Cufflinks
+|   |-- IPL_capstone_project.ipynb       # IPL capstone project
+|   |-- IPL.csv                          # IPL dataset
 |-- NumPy/                         # NumPy fundamentals modules
 |   |-- 1_numpy_arrays.ipynb               # Arrays basics
 |   |-- 2_arrays_types.ipynb               # Data types (dtypes)
@@ -167,7 +170,7 @@ Machine Learning/
 - [x] NumPy exercises (3 notebooks)
 - [x] Pandas fundamentals (9 notebooks)
 - [x] Pandas exercises (2 notebooks)
-- [x] Data visualization (6 notebooks)
+- [x] Data visualization (7 notebooks)
 
 ### Upcoming Phases 🚧
 
