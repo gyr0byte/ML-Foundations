@@ -34,7 +34,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ## ✨ Features
 
-- ✅ **38 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 3 statistics
+- ✅ **39 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 4 statistics
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -88,6 +88,8 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 - Continue with `Data Visualization/Regression.ipynb`.
 - Continue with `Data Visualization/plotlyandcufflinks.ipynb`.
 - Continue with `Data Visualization/IPL_capstone_project.ipynb`.
+- Move to Statistics with `Statistics/1_outliers.ipynb`.
+- Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, and `Statistics/4_Two_sample_T_test.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -110,69 +112,70 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ### Statistics
 
-- 3 notebooks in `Statistics/` covering outlier detection and handling, T-test, and Z-test hypothesis testing.
+- 4 notebooks in `Statistics/` covering outlier detection and handling, Z-test, T-test, and Two-sample T-test hypothesis testing.
 
 ## 📁 Project Structure
 
 ```
 Machine Learning/
-|-- README.md                      # Project overview and guide
-|-- requirements.txt               # Python dependencies
-|-- LICENSE                        # License for reuse and distribution
-|-- .gitignore                     # Git ignore patterns
-|-- Data Visualization/            # Data visualization modules
-|   |-- matplotlib.ipynb                # Matplotlib basics and plots
-|   |-- Distributionplot.ipynb          # Distribution plots
-|   |-- Categoricalplot.ipynb            # Categorical plots
-|   |-- Matrixplot.ipynb                 # Matrix plots
-|   |-- Regression.ipynb                 # Regression plots
-|   |-- plotlyandcufflinks.ipynb         # Plotly and Cufflinks
-|   |-- IPL_capstone_project.ipynb       # IPL capstone project
-|   |-- IPL.csv                          # IPL dataset
-|   |-- basic_plot.png                   # Sample plot image asset
-|   `-- zoro.jpg                         # Image asset used in notebooks
-|-- NumPy/                         # NumPy fundamentals modules
-|   |-- 1_numpy_arrays.ipynb               # Arrays basics
-|   |-- 2_arrays_types.ipynb               # Data types (dtypes)
-|   |-- 3_dimension_shapes.ipynb           # Dimensions & shapes
-|   |-- 4_indexing_slicing_iteration.ipynb # Advanced indexing
-|   |-- 5_statistics.ipynb                 # Statistical operations
-|   |-- 6_broadcasting_vectorize.ipynb     # Broadcasting & vectorization
-|   |-- 7_boolean_arrays.ipynb             # Boolean indexing
-|   |-- 8_linear_algebra.ipynb             # Linear algebra operations
-|   |-- 9_size_of_objectsInMemory.ipynb    # Memory size exploration
-|   |-- 10_useful_numpy_function.ipynb     # Useful NumPy utilities
-|   |-- 11_numpy_operations.ipynb          # NumPy operations overview
-|   |-- 12_Reshaping_inDepth.ipynb         # Reshaping deep dive
-|   |-- 13_plotting_graphs_numpy.ipynb     # Plotting graphs with NumPy
-|   `-- numpy_exercises/                   # Practice notebooks
-|       |-- general_qns.ipynb              # Mixed practice questions
-|       |-- nepali_cricket_score.ipynb     # Practice with real-world data
-|       `-- valid_sudoku.ipynb             # NumPy practice exercise
-|-- Pandas/                        # Pandas fundamentals modules
-|   |-- 1_series.ipynb                     # Series basics
-|   |-- 2_DataFrames.ipynb                 # DataFrames basics
-|   |-- 3_Missing_Data.ipynb               # Missing data handling
+|-- README.md                               # Project overview and guide
+|-- requirements.txt                        # Python dependencies
+|-- LICENSE                                 # License for reuse and distribution
+|-- .gitignore                              # Git ignore patterns
+|-- Data Visualization/                     # Data visualization modules
+|   |-- matplotlib.ipynb                    # Matplotlib basics and plots
+|   |-- Distributionplot.ipynb              # Distribution plots
+|   |-- Categoricalplot.ipynb               # Categorical plots
+|   |-- Matrixplot.ipynb                    # Matrix plots
+|   |-- Regression.ipynb                    # Regression plots
+|   |-- plotlyandcufflinks.ipynb            # Plotly and Cufflinks
+|   |-- IPL_capstone_project.ipynb          # IPL capstone project
+|   |-- IPL.csv                             # IPL dataset
+|   |-- basic_plot.png                      # Sample plot image asset
+|   `-- zoro.jpg                            # Image asset used in notebooks
+|-- NumPy/                                  # NumPy fundamentals modules
+|   |-- 1_numpy_arrays.ipynb                # Arrays basics
+|   |-- 2_arrays_types.ipynb                # Data types (dtypes)
+|   |-- 3_dimension_shapes.ipynb            # Dimensions & shapes
+|   |-- 4_indexing_slicing_iteration.ipynb  # Advanced indexing
+|   |-- 5_statistics.ipynb                  # Statistical operations
+|   |-- 6_broadcasting_vectorize.ipynb      # Broadcasting & vectorization
+|   |-- 7_boolean_arrays.ipynb              # Boolean indexing
+|   |-- 8_linear_algebra.ipynb              # Linear algebra operations
+|   |-- 9_size_of_objectsInMemory.ipynb     # Memory size exploration
+|   |-- 10_useful_numpy_function.ipynb      # Useful NumPy utilities
+|   |-- 11_numpy_operations.ipynb           # NumPy operations overview
+|   |-- 12_Reshaping_inDepth.ipynb          # Reshaping deep dive
+|   |-- 13_plotting_graphs_numpy.ipynb      # Plotting graphs with NumPy
+|   `-- numpy_exercises/                    # Practice notebooks
+|       |-- general_qns.ipynb               # Mixed practice questions
+|       |-- nepali_cricket_score.ipynb      # Practice with real-world data
+|       `-- valid_sudoku.ipynb              # NumPy practice exercise
+|-- Pandas/                                 # Pandas fundamentals modules
+|   |-- 1_series.ipynb                      # Series basics
+|   |-- 2_DataFrames.ipynb                  # DataFrames basics
+|   |-- 3_Missing_Data.ipynb                # Missing data handling
 |   |-- 4_Merging_Joining_Concatination.ipynb # Merging and joining
-|   |-- 5_GroupByAggregation.ipynb         # GroupBy and aggregation
-|   |-- 6_pivot_tables.ipynb               # Pivot tables and reshaping
-|   |-- 7_Operations.ipynb                 # Pandas operations
-|   |-- 8_ipl_analysis.ipynb               # IPL data analysis
-|   |-- 9_company.ipynb                    # Company data analysis
-|   |-- 10_titanic.ipynb                   # Titanic survival analysis
-|   |-- deliveries.csv                     # IPL deliveries dataset
-|   |-- ipl_matches.csv                    # IPL matches dataset
-|   |-- Fortune_500_Companies.csv          # Company dataset
-|   |-- titanic_data.csv                   # Titanic passenger dataset
-|   `-- pandas_exercise/                   # Pandas practice notebooks
-|      |-- Countries.csv                  # Sample dataset
-|      |-- Countries.ipynb                # Country data practice
-|      |-- feature_extraction.ipynb       # Feature extraction practice
-|      `-- topanime.csv                   # Sample dataset
-`-- Statistics/                    # Statistical methods modules
-   |-- outliers.ipynb                    # Outlier detection and handling
-   |-- Ttest.ipynb                       # Hypothesis testing: T-test
-   `-- Ztest.ipynb                       # Hypothesis testing: Z-test
+|   |-- 5_GroupByAggregation.ipynb          # GroupBy and aggregation
+|   |-- 6_pivot_tables.ipynb                # Pivot tables and reshaping
+|   |-- 7_Operations.ipynb                  # Pandas operations
+|   |-- 8_ipl_analysis.ipynb                # IPL data analysis
+|   |-- 9_company.ipynb                     # Company data analysis
+|   |-- 10_titanic.ipynb                    # Titanic survival analysis
+|   |-- deliveries.csv                      # IPL deliveries dataset
+|   |-- ipl_matches.csv                     # IPL matches dataset
+|   |-- Fortune_500_Companies.csv           # Company dataset
+|   |-- titanic_data.csv                    # Titanic passenger dataset
+|   `-- pandas_exercise/                    # Pandas practice notebooks
+|       |-- Countries.csv                   # Sample dataset
+|       |-- Countries.ipynb                 # Country data practice
+|       |-- feature_extraction.ipynb        # Feature extraction practice
+|       `-- topanime.csv                    # Sample dataset
+`-- Statistics/                             # Statistical methods modules
+    |-- 1_outliers.ipynb                    # Outlier detection and handling
+    |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
+    |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
+    `-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
 ```
 
 ## 🗺️ Roadmap
@@ -187,7 +190,7 @@ Machine Learning/
 
 ### Upcoming Phases 🚧
 
-- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(3 notebooks)*
+- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(4 notebooks)*
 - [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
 - [ ] **Unsupervised Learning** — Clustering and dimensionality reduction
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
