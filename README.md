@@ -34,7 +34,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ## ✨ Features
 
-- ✅ **36 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 1 statistics
+- ✅ **38 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 3 statistics
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -110,7 +110,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ### Statistics
 
-- 1 notebook in `Statistics/` covering outlier detection and handling.
+- 3 notebooks in `Statistics/` covering outlier detection and handling, T-test, and Z-test hypothesis testing.
 
 ## 📁 Project Structure
 
@@ -170,7 +170,9 @@ Machine Learning/
 |      |-- feature_extraction.ipynb       # Feature extraction practice
 |      `-- topanime.csv                   # Sample dataset
 `-- Statistics/                    # Statistical methods modules
-   `-- outliers.ipynb                    # Outlier detection and handling
+   |-- outliers.ipynb                    # Outlier detection and handling
+   |-- Ttest.ipynb                       # Hypothesis testing: T-test
+   `-- Ztest.ipynb                       # Hypothesis testing: Z-test
 ```
 
 ## 🗺️ Roadmap
@@ -185,7 +187,7 @@ Machine Learning/
 
 ### Upcoming Phases 🚧
 
-- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(1 notebook started)*
+- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(3 notebooks)*
 - [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
 - [ ] **Unsupervised Learning** — Clustering and dimensionality reduction
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
