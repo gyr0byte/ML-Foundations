@@ -34,7 +34,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ## ✨ Features
 
-- ✅ **39 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 4 statistics
+- ✅ **40 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 5 statistics
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -89,7 +89,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 - Continue with `Data Visualization/plotlyandcufflinks.ipynb`.
 - Continue with `Data Visualization/IPL_capstone_project.ipynb`.
 - Move to Statistics with `Statistics/1_outliers.ipynb`.
-- Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, and `Statistics/4_Two_sample_T_test.ipynb`.
+- Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, `Statistics/4_Two_sample_T_test.ipynb`, and `Statistics/5_chi_square_test.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -112,7 +112,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ### Statistics
 
-- 4 notebooks in `Statistics/` covering outlier detection and handling, Z-test, T-test, and Two-sample T-test hypothesis testing.
+- 5 notebooks in `Statistics/` covering outlier detection and handling, Z-test, T-test, Two-sample T-test, and Chi-square test hypothesis testing.
 
 ## 📁 Project Structure
 
@@ -175,7 +175,8 @@ Machine Learning/
     |-- 1_outliers.ipynb                    # Outlier detection and handling
     |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
     |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
-    `-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
+    |-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
+    `-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
 ```
 
 ## 🗺️ Roadmap
@@ -190,7 +191,7 @@ Machine Learning/
 
 ### Upcoming Phases 🚧
 
-- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(4 notebooks)*
+- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(5 notebooks)*
 - [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
 - [ ] **Unsupervised Learning** — Clustering and dimensionality reduction
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
