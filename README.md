@@ -34,7 +34,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ## ✨ Features
 
-- ✅ **40 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 5 statistics
+- ✅ **41 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 6 statistics
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -89,7 +89,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 - Continue with `Data Visualization/plotlyandcufflinks.ipynb`.
 - Continue with `Data Visualization/IPL_capstone_project.ipynb`.
 - Move to Statistics with `Statistics/1_outliers.ipynb`.
-- Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, `Statistics/4_Two_sample_T_test.ipynb`, and `Statistics/5_chi_square_test.ipynb`.
+- Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, `Statistics/4_Two_sample_T_test.ipynb`, `Statistics/5_chi_square_test.ipynb`, and `Statistics/6_ANNOVA_test.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -112,7 +112,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 
 ### Statistics
 
-- 5 notebooks in `Statistics/` covering outlier detection and handling, Z-test, T-test, Two-sample T-test, and Chi-square test hypothesis testing.
+- 6 notebooks in `Statistics/` covering outlier detection and handling, Z-test, T-test, Two-sample T-test, Chi-square test, and ANOVA test hypothesis testing.
 
 ## 📁 Project Structure
 
@@ -176,7 +176,8 @@ Machine Learning/
     |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
     |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
     |-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
-    `-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
+    |-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
+    `-- 6_ANNOVA_test.ipynb                 # Hypothesis testing: ANOVA test
 ```
 
 ## 🗺️ Roadmap
@@ -191,7 +192,7 @@ Machine Learning/
 
 ### Upcoming Phases 🚧
 
-- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(5 notebooks)*
+- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(6 notebooks)*
 - [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
 - [ ] **Unsupervised Learning** — Clustering and dimensionality reduction
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
