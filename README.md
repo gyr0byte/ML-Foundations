@@ -19,6 +19,7 @@
   - [Pandas Exercises](#pandas-exercises)
   - [Data Visualization](#data-visualization)
   - [Statistics](#statistics)
+  - [Foundation For ML](#foundation-for-ml)
 - [Roadmap](#roadmap)
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
@@ -28,13 +29,13 @@
 
 Notebook-first workspace for building strong ML foundations with short, focused lessons and runnable examples.
 
-### Current Phase: Statistical Methods ✨
+### Current Phase: Foundation For ML ✨
 
-Current focus: **Statistics** for hypothesis testing, distributions, and inference.
+Current focus: **Practical ML projects** building on statistics knowledge.
 
 ## ✨ Features
 
-- ✅ **41 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 6 statistics
+- ✅ **43 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 6 statistics, 2 foundation projects
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -90,6 +91,7 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 - Continue with `Data Visualization/IPL_capstone_project.ipynb`.
 - Move to Statistics with `Statistics/1_outliers.ipynb`.
 - Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, `Statistics/4_Two_sample_T_test.ipynb`, `Statistics/5_chi_square_test.ipynb`, and `Statistics/6_ANNOVA_test.ipynb`.
+- Move to Foundation For ML with `Foundation For ML/1_foundation_project.ipynb` and `Foundation For ML/2_foundation_project.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -113,6 +115,10 @@ Current focus: **Statistics** for hypothesis testing, distributions, and inferen
 ### Statistics
 
 - 6 notebooks in `Statistics/` covering outlier detection and handling, Z-test, T-test, Two-sample T-test, Chi-square test, and ANOVA test hypothesis testing.
+
+### Foundation For ML
+
+- 2 project notebooks in `Foundation For ML/` applying statistical and exploratory analysis to real-world datasets.
 
 ## 📁 Project Structure
 
@@ -171,13 +177,18 @@ Machine Learning/
 |       |-- Countries.ipynb                 # Country data practice
 |       |-- feature_extraction.ipynb        # Feature extraction practice
 |       `-- topanime.csv                    # Sample dataset
-`-- Statistics/                             # Statistical methods modules
+|-- Statistics/                             # Statistical methods modules
     |-- 1_outliers.ipynb                    # Outlier detection and handling
     |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
     |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
     |-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
     |-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
     `-- 6_ANNOVA_test.ipynb                 # Hypothesis testing: ANOVA test
+`-- Foundation For ML/                      # Foundation ML projects
+    |-- 1_foundation_project.ipynb          # Foundation ML project 1
+    |-- 2_foundation_project.ipynb          # Foundation ML project 2
+    |-- heart.csv                           # Heart disease dataset
+    `-- insurance.csv                       # Insurance dataset
 ```
 
 ## 🗺️ Roadmap
@@ -189,10 +200,11 @@ Machine Learning/
 - [x] Pandas fundamentals (10 notebooks)
 - [x] Pandas exercises (2 notebooks)
 - [x] Data visualization (7 notebooks)
+- [x] Statistical methods (6 notebooks)
 
 ### Upcoming Phases 🚧
 
-- [/] **Statistical Methods** — Hypothesis testing, distributions, and inference *(6 notebooks)*
+- [/] **Foundation For ML** — Practical ML projects with real datasets _(2 notebooks)_
 - [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
 - [ ] **Unsupervised Learning** — Clustering and dimensionality reduction
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
