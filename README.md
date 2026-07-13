@@ -35,7 +35,7 @@ Current focus: **Practical ML projects** building on statistics knowledge.
 
 ## ✨ Features
 
-- ✅ **43 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 6 statistics, 2 foundation projects
+- ✅ **44 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 6 statistics, 3 foundation projects
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -92,6 +92,7 @@ Current focus: **Practical ML projects** building on statistics knowledge.
 - Move to Statistics with `Statistics/1_outliers.ipynb`.
 - Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, `Statistics/4_Two_sample_T_test.ipynb`, `Statistics/5_chi_square_test.ipynb`, and `Statistics/6_ANNOVA_test.ipynb`.
 - Move to Foundation For ML with `Foundation For ML/1_foundation_project.ipynb` and `Foundation For ML/2_foundation_project.ipynb`.
+- Continue with `Foundation For ML/3_FORD_car_price_prediction.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -118,7 +119,7 @@ Current focus: **Practical ML projects** building on statistics knowledge.
 
 ### Foundation For ML
 
-- 2 project notebooks in `Foundation For ML/` applying statistical and exploratory analysis to real-world datasets.
+- 3 project notebooks in `Foundation For ML/` applying statistical and exploratory analysis to real-world datasets.
 
 ## 📁 Project Structure
 
@@ -178,17 +179,19 @@ Machine Learning/
 |       |-- feature_extraction.ipynb        # Feature extraction practice
 |       `-- topanime.csv                    # Sample dataset
 |-- Statistics/                             # Statistical methods modules
-    |-- 1_outliers.ipynb                    # Outlier detection and handling
-    |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
-    |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
-    |-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
-    |-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
-    `-- 6_ANNOVA_test.ipynb                 # Hypothesis testing: ANOVA test
+   |-- 1_outliers.ipynb                    # Outlier detection and handling
+   |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
+   |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
+   |-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
+   |-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
+   `-- 6_ANNOVA_test.ipynb                 # Hypothesis testing: ANOVA test
 `-- Foundation For ML/                      # Foundation ML projects
-    |-- 1_foundation_project.ipynb          # Foundation ML project 1
-    |-- 2_foundation_project.ipynb          # Foundation ML project 2
-    |-- heart.csv                           # Heart disease dataset
-    `-- insurance.csv                       # Insurance dataset
+   |-- 1_foundation_project.ipynb          # Foundation ML project 1
+   |-- 2_foundation_project.ipynb          # Foundation ML project 2
+   |-- 3_FORD_car_price_prediction.ipynb    # Ford car price prediction project
+   |-- ford.csv                             # Ford car dataset
+   |-- heart.csv                            # Heart disease dataset
+   `-- insurance.csv                        # Insurance dataset
 ```
 
 ## 🗺️ Roadmap
@@ -204,7 +207,7 @@ Machine Learning/
 
 ### Upcoming Phases 🚧
 
-- [/] **Foundation For ML** — Practical ML projects with real datasets _(2 notebooks)_
+- [/] **Foundation For ML** — Practical ML projects with real datasets _(3 notebooks)_
 - [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
 - [ ] **Unsupervised Learning** — Clustering and dimensionality reduction
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
@@ -235,4 +238,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Happy Learning! 🎓**
 
-_Last Updated: June 2026_
+_Last Updated: July 2026_
