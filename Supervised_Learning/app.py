@@ -22,4 +22,17 @@ exercise_angina = st.selectbox("Exercise-Induced Angina", ['Y','N'])
 oldpeak = st.slider("Oldpeak (ST Depression)", 0.0, 6.0, 1.0)
 st_slope = st.selectbox('ST Slope', ['Up', 'Flat', 'Down'])
 
-
+if st.button("Predict"):
+    raw_input = {
+        'Age' : age,
+        'RestingBP' : resting_bp,
+        "Cholestrol" : cholestrol,
+        "FastingBS" : fasting_bs,
+        "MaxHR" : max_hr,
+        'Oldpeak' : oldpeak,
+        'Sex_' + sex : 1,
+        'ChestPainType_' + chest_pain: 1,
+        'RestingECG_' + resting_ecg:1,
+        'ExerciseAngina_' + exercise_angina: 1,
+        'ST_Slope_' + st_slope: 1
+    }
