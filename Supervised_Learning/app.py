@@ -14,7 +14,7 @@ age = st.slider("Age",18,100,40)
 sex = st.selectbox("SEX",['M','F'])
 chest_pain = st.selectbox("Chest Pain Type", ['ATA', 'NAP', 'TA', 'ASY'])
 resting_bp = st.number_input('Resting Blood Pressure (mm hg)', 80, 200, 120) 
-cholestrol = st.number_input("Cholestrol (mg/dL)", 100, 600, 200)
+cholesterol = st.number_input("Cholesterol (mg/dL)", 100, 600, 200)
 fasting_bs = st.selectbox("Fasting Blood Sugar > 120 mg/dL", [0,1])
 resting_ecg = st.selectbox("Resting ECG",['Normal', 'ST', 'LVH'])
 max_hr = st.slider("Max Heart Rate", 60, 220, 150)
@@ -26,7 +26,7 @@ if st.button("Predict"):
     raw_input = {
         'Age' : age,
         'RestingBP' : resting_bp,
-        "Cholestrol" : cholestrol,
+        "Cholesterol" : cholesterol,
         "FastingBS" : fasting_bs,
         "MaxHR" : max_hr,
         'Oldpeak' : oldpeak,
