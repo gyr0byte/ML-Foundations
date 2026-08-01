@@ -20,6 +20,10 @@
   - [Data Visualization](#data-visualization)
   - [Statistics](#statistics)
   - [Foundation For ML](#foundation-for-ml)
+  - [Ensemble Learning](#ensemble-learning)
+  - [Model Tuning](#model-tuning)
+  - [Supervised Learning](#supervised-learning)
+  - [Unsupervised Learning](#unsupervised-learning)
 - [Roadmap](#roadmap)
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
@@ -29,13 +33,13 @@
 
 Notebook-first workspace for building strong ML foundations with short, focused lessons and runnable examples.
 
-### Current Phase: Foundation For ML ✨
+### Current Phase: Specialized ML Topics ✨
 
-Current focus: **Practical ML projects** building on statistics knowledge.
+Current focus: **Ensemble learning, model tuning, and supervised/unsupervised learning**.
 
 ## ✨ Features
 
-- ✅ **44 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 6 statistics, 3 foundation projects
+- ✅ **52 notebooks** — 13 NumPy, 3 exercises, 10 Pandas, 2 Pandas exercises, 7 data viz, 6 statistics, 3 foundation projects, 3 ensemble notebooks, 2 model tuning notebooks, 2 supervised learning notebooks, 1 unsupervised notebook
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -91,8 +95,11 @@ Current focus: **Practical ML projects** building on statistics knowledge.
 - Continue with `Data Visualization/IPL_capstone_project.ipynb`.
 - Move to Statistics with `Statistics/1_outliers.ipynb`.
 - Continue with `Statistics/2_Ztest.ipynb`, `Statistics/3_Ttest.ipynb`, `Statistics/4_Two_sample_T_test.ipynb`, `Statistics/5_chi_square_test.ipynb`, and `Statistics/6_ANNOVA_test.ipynb`.
-- Move to Foundation For ML with `Foundation For ML/1_foundation_project.ipynb` and `Foundation For ML/2_foundation_project.ipynb`.
-- Continue with `Foundation For ML/3_FORD_car_price_prediction.ipynb`.
+- Move to Foundation_For_ML with `Foundation_For_ML/1_foundation_project.ipynb`, `Foundation_For_ML/2_foundation_project.ipynb`, and `Foundation_For_ML/3_FORD_car_price_prediction.ipynb`.
+- Continue with `Ensemble_Learning/bagging.ipynb`, `Ensemble_Learning/boosting.ipynb`, and `Ensemble_Learning/stacking.ipynb`.
+- Continue with `Model_Tuning/cross_validation.ipynb` and `Model_Tuning/grid_search_cv.ipynb`.
+- Move to `Supervised_Learning/1_Logistic_Regression.ipynb` and `Supervised_Learning/2_heart_disease_pred.ipynb`.
+- Finish with `Unsupervised_Learning/k_means_clustering.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -119,7 +126,23 @@ Current focus: **Practical ML projects** building on statistics knowledge.
 
 ### Foundation For ML
 
-- 3 project notebooks in `Foundation For ML/` applying statistical and exploratory analysis to real-world datasets.
+- 3 project notebooks in `Foundation_For_ML/` applying statistical and exploratory analysis to real-world datasets.
+
+### Ensemble Learning
+
+- 3 notebooks in `Ensemble_Learning/` covering bagging, boosting, and stacking.
+
+### Model Tuning
+
+- 2 notebooks in `Model_Tuning/` covering cross-validation and grid search.
+
+### Supervised Learning
+
+- 2 notebooks in `Supervised_Learning/` covering logistic regression and heart-disease prediction.
+
+### Unsupervised Learning
+
+- 1 notebook in `Unsupervised_Learning/` covering k-means clustering.
 
 ## 📁 Project Structure
 
@@ -179,19 +202,36 @@ Machine Learning/
 |       |-- feature_extraction.ipynb        # Feature extraction practice
 |       `-- topanime.csv                    # Sample dataset
 |-- Statistics/                             # Statistical methods modules
-   |-- 1_outliers.ipynb                    # Outlier detection and handling
-   |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
-   |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
-   |-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
-   |-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
-   `-- 6_ANNOVA_test.ipynb                 # Hypothesis testing: ANOVA test
-`-- Foundation For ML/                      # Foundation ML projects
-   |-- 1_foundation_project.ipynb          # Foundation ML project 1
-   |-- 2_foundation_project.ipynb          # Foundation ML project 2
-   |-- 3_FORD_car_price_prediction.ipynb    # Ford car price prediction project
-   |-- ford.csv                             # Ford car dataset
-   |-- heart.csv                            # Heart disease dataset
-   `-- insurance.csv                        # Insurance dataset
+|   |-- 1_outliers.ipynb                    # Outlier detection and handling
+|   |-- 2_Ztest.ipynb                       # Hypothesis testing: Z-test
+|   |-- 3_Ttest.ipynb                       # Hypothesis testing: T-test
+|   |-- 4_Two_sample_T_test.ipynb           # Hypothesis testing: Two-sample T-test
+|   |-- 5_chi_square_test.ipynb             # Hypothesis testing: Chi-square test
+|   `-- 6_ANNOVA_test.ipynb                 # Hypothesis testing: ANOVA test
+|-- Foundation_For_ML/                      # Foundation ML projects
+|   |-- 1_foundation_project.ipynb          # Foundation ML project 1
+|   |-- 2_foundation_project.ipynb          # Foundation ML project 2
+|   |-- 3_FORD_car_price_prediction.ipynb    # Ford car price prediction project
+|   |-- ford.csv                             # Ford car dataset
+|   |-- heart.csv                            # Heart disease dataset
+|   `-- insurance.csv                        # Insurance dataset
+|-- Ensemble_Learning/                      # Ensemble learning notebooks
+|   |-- bagging.ipynb                       # Bagging ensemble notebook
+|   |-- boosting.ipynb                      # Boosting ensemble notebook
+|   `-- stacking.ipynb                      # Stacking ensemble notebook
+|-- Model_Tuning/                           # Hyperparameter tuning notebooks
+|   |-- cross_validation.ipynb              # Cross-validation notebook
+|   `-- grid_search_cv.ipynb                # Grid-search CV notebook
+|-- Supervised_Learning/                    # Supervised learning notebooks
+|   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
+|   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
+|   |-- app.py                               # Streamlit app for the prediction workflow
+|   |-- columns.pkl                         # Model feature columns
+|   |-- heart.csv                            # Heart disease dataset
+|   |-- scaler.pkl                          # Saved scaler object
+|   `-- SVM_heart_model.pkl                 # Saved SVM model
+`-- Unsupervised_Learning/                  # Unsupervised learning notebooks
+    `-- k_means_clustering.ipynb            # K-means clustering notebook
 ```
 
 ## 🗺️ Roadmap
@@ -204,12 +244,14 @@ Machine Learning/
 - [x] Pandas exercises (2 notebooks)
 - [x] Data visualization (7 notebooks)
 - [x] Statistical methods (6 notebooks)
+- [x] Foundation For ML (3 notebooks)
+- [x] Ensemble Learning (3 notebooks)
+- [x] Model Tuning (2 notebooks)
 
 ### Upcoming Phases 🚧
 
-- [/] **Foundation For ML** — Practical ML projects with real datasets _(3 notebooks)_
-- [ ] **Supervised Learning** — Regression and classification with Scikit-Learn
-- [ ] **Unsupervised Learning** — Clustering and dimensionality reduction
+- [/] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
+- [/] **Unsupervised Learning** — K-means clustering _(1 notebook)_
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
 - [ ] **Deep Learning** — Introduction to TensorFlow/PyTorch
 
@@ -238,4 +280,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Happy Learning! 🎓**
 
-_Last Updated: July 2026_
+_Last Updated: August 2026_
