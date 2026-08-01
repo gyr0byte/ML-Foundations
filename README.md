@@ -19,7 +19,7 @@
   - [Pandas Exercises](#pandas-exercises)
   - [Data Visualization](#data-visualization)
   - [Statistics](#statistics)
-  - [Foundation For ML](#foundation-for-ml)
+  - [Foundation_For_ML](#foundation_for_ml)
   - [Ensemble Learning](#ensemble-learning)
   - [Model Tuning](#model-tuning)
   - [Supervised Learning](#supervised-learning)
@@ -124,7 +124,7 @@ Current focus: **Ensemble learning, model tuning, and supervised/unsupervised le
 
 - 6 notebooks in `Statistics/` covering outlier detection and handling, Z-test, T-test, Two-sample T-test, Chi-square test, and ANOVA test hypothesis testing.
 
-### Foundation For ML
+### Foundation_For_ML
 
 - 3 project notebooks in `Foundation_For_ML/` applying statistical and exploratory analysis to real-world datasets.
 
