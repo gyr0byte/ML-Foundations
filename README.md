@@ -24,7 +24,7 @@
   - [Model Tuning](#model-tuning)
   - [Deep Learning](#deep-learning)
   - [Dimensionality Reduction](#dimensionality-reduction)
-  - [NLP ( ML approach )](#nlp-ml-approach)
+  - [NLP (ML approach)](#nlp-ml-approach)
   - [Supervised Learning](#supervised-learning)
   - [Unsupervised Learning](#unsupervised-learning)
 - [Roadmap](#roadmap)
@@ -104,7 +104,7 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 - Move to `Supervised_Learning/1_Logistic_Regression.ipynb` and `Supervised_Learning/2_heart_disease_pred.ipynb`.
 - Finish with `Unsupervised_Learning/k_means_clustering.ipynb` and `Unsupervised_Learning/DBSCAN.ipynb`.
 - Explore Dimensionality Reduction with `Dimensionality_Reduction/pca_dimension.ipynb`.
-- Try NLP notebooks in `NLP( ML approach )/bag_of_words.ipynb` and `NLP( ML approach )/emotion_prediction.ipynb`.
+- Try NLP notebooks in `NLP( ML approach )/bag_of_words.ipynb` and `NLP( ML approach )/emotion_prediction.ipynb`, then review the supporting model and dataset files in the same folder.
 - Continue with `Deep_Learning/ANN/basic_neural_network.ipynb`.
 
 ## 📖 Learning Modules
@@ -145,6 +145,7 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 ### Deep Learning
 
 - 1 notebook in `Deep_Learning/ANN/` covering a basic neural network for binary classification.
+- `Deep_Learning/CNN/` is currently a planned section for future convolutional neural network content.
 
 ### Supervised Learning
 
@@ -154,9 +155,10 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 
 - 1 notebook in `Dimensionality_Reduction/` covering PCA for dimensionality reduction.
 
-### NLP ( ML approach )
+### NLP (ML approach)
 
 - 2 notebooks in `NLP( ML approach )/` covering bag-of-words and an emotion-prediction example.
+- Supporting files in the same folder include a trained model artifact and dataset text used in the workflow.
 
 ### Unsupervised Learning
 
@@ -243,7 +245,7 @@ Machine Learning/
 |-- Deep_Learning/                          # Deep learning notebooks
 |   |-- ANN/                                # Artificial neural networks
 |   |   `-- basic_neural_network.ipynb      # Basic neural network example
-|   `-- CNN/                                # Convolutional neural network section
+|   `-- CNN/                                # Planned future CNN section
 |-- Supervised_Learning/                    # Supervised learning notebooks
 |   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
 |   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
@@ -256,7 +258,10 @@ Machine Learning/
 |   `-- pca_dimension.ipynb                 # PCA dimensionality reduction
 |-- NLP( ML approach )/                     # Natural Language Processing notebooks
 |   |-- bag_of_words.ipynb                  # Bag-of-words example
-|   `-- emotion_prediction.ipynb            # Emotion prediction example
+|   |-- emotion_prediction.ipynb            # Emotion prediction example
+|   |-- stacking_clf.pkl                   # Trained NLP model artifact
+|   |-- train.txt                          # NLP training text data
+|   `-- test.txt                           # NLP test text data
 `-- Unsupervised_Learning/                  # Unsupervised learning notebooks
     |-- k_means_clustering.ipynb            # K-means clustering notebook
     `-- DBSCAN.ipynb                        # DBSCAN clustering notebook
