@@ -22,6 +22,7 @@
   - [Foundation_For_ML](#foundation_for_ml)
   - [Ensemble Learning](#ensemble-learning)
   - [Model Tuning](#model-tuning)
+  - [Deep Learning](#deep-learning)
   - [Dimensionality Reduction](#dimensionality-reduction)
   - [NLP ( ML approach )](#nlp-ml-approach)
   - [Supervised Learning](#supervised-learning)
@@ -37,11 +38,11 @@ Notebook-first workspace for building strong ML foundations with short, focused 
 
 ### Current Phase: Specialized ML Topics ✨
 
-Current focus: **Ensemble learning, model tuning, and supervised/unsupervised learning**.
+Current focus: **Deep learning, ensemble learning, model tuning, and supervised/unsupervised learning**.
 
 ## ✨ Features
 
-- ✅ **56 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
+- ✅ **57 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 1 Deep Learning notebook, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -104,6 +105,7 @@ Current focus: **Ensemble learning, model tuning, and supervised/unsupervised le
 - Finish with `Unsupervised_Learning/k_means_clustering.ipynb` and `Unsupervised_Learning/DBSCAN.ipynb`.
 - Explore Dimensionality Reduction with `Dimensionality_Reduction/pca_dimension.ipynb`.
 - Try NLP notebooks in `NLP( ML approach )/bag_of_words.ipynb` and `NLP( ML approach )/emotion_prediction.ipynb`.
+- Continue with `Deep_Learning/ANN/basic_neural_network.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -139,6 +141,10 @@ Current focus: **Ensemble learning, model tuning, and supervised/unsupervised le
 ### Model Tuning
 
 - 2 notebooks in `Model_Tuning/` covering cross-validation and grid search.
+
+### Deep Learning
+
+- 1 notebook in `Deep_Learning/ANN/` covering a basic neural network for binary classification.
 
 ### Supervised Learning
 
@@ -231,25 +237,29 @@ Machine Learning/
 |   |-- bagging.ipynb                       # Bagging ensemble notebook
 |   |-- boosting.ipynb                      # Boosting ensemble notebook
 |   `-- stacking.ipynb                      # Stacking ensemble notebook
--- Model_Tuning/                           # Hyperparameter tuning notebooks
-   |-- cross_validation.ipynb              # Cross-validation notebook
-   `-- grid_search_cv.ipynb                # Grid-search CV notebook
--- Supervised_Learning/                    # Supervised learning notebooks
-   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
-   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
-   |-- app.py                              # Streamlit app for the prediction workflow
-   |-- columns.pkl                         # Model feature columns
-   |-- heart.csv                           # Heart disease dataset
-   |-- scaler.pkl                          # Saved scaler object
-   `-- SVM_heart_model.pkl                 # Saved SVM model
--- Dimensionality_Reduction/               # Dimensionality reduction modules
-   `-- pca_dimension.ipynb                 # PCA dimensionality reduction
--- NLP( ML approach )/                     # Natural Language Processing notebooks
-   |-- bag_of_words.ipynb                  # Bag-of-words example
-   `-- emotion_prediction.ipynb            # Emotion prediction example
-`-- Unsupervised_Learning/                 # Unsupervised learning notebooks
-   |-- k_means_clustering.ipynb            # K-means clustering notebook
-   `-- DBSCAN.ipynb                         # DBSCAN clustering notebook
+|-- Model_Tuning/                           # Hyperparameter tuning notebooks
+|   |-- cross_validation.ipynb              # Cross-validation notebook
+|   `-- grid_search_cv.ipynb                # Grid-search CV notebook
+|-- Deep_Learning/                          # Deep learning notebooks
+|   |-- ANN/                                # Artificial neural networks
+|   |   `-- basic_neural_network.ipynb      # Basic neural network example
+|   `-- CNN/                                # Convolutional neural network section
+|-- Supervised_Learning/                    # Supervised learning notebooks
+|   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
+|   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
+|   |-- app.py                              # Streamlit app for the prediction workflow
+|   |-- columns.pkl                         # Model feature columns
+|   |-- heart.csv                           # Heart disease dataset
+|   |-- scaler.pkl                          # Saved scaler object
+|   `-- SVM_heart_model.pkl                 # Saved SVM model
+|-- Dimensionality_Reduction/               # Dimensionality reduction modules
+|   `-- pca_dimension.ipynb                 # PCA dimensionality reduction
+|-- NLP( ML approach )/                     # Natural Language Processing notebooks
+|   |-- bag_of_words.ipynb                  # Bag-of-words example
+|   `-- emotion_prediction.ipynb            # Emotion prediction example
+`-- Unsupervised_Learning/                  # Unsupervised learning notebooks
+    |-- k_means_clustering.ipynb            # K-means clustering notebook
+    `-- DBSCAN.ipynb                        # DBSCAN clustering notebook
 ```
 
 ## 🗺️ Roadmap
@@ -269,9 +279,10 @@ Machine Learning/
 ### Upcoming Phases 🚧
 
 - [/] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
-- [/] **Unsupervised Learning** — K-means clustering _(1 notebook)_
+- [/] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
+- [/] **Deep Learning** — Neural network basics with TensorFlow/Keras _(1 notebook)_
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
-- [ ] **Deep Learning** — Introduction to TensorFlow/PyTorch
+- [ ] **Advanced Deep Learning** — Introduction to TensorFlow/PyTorch
 
 ## 🏆 Best Practices
 
