@@ -107,6 +107,7 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 - Try NLP notebooks in `NLP( ML approach )/bag_of_words.ipynb` and `NLP( ML approach )/emotion_prediction.ipynb`, then review the supporting model and dataset files in the same folder.
 - Continue with `Deep_Learning/ANN/basic_neural_network.ipynb` and `Deep_Learning/ANN/small_project.ipynb`.
 
+
 ## 📖 Learning Modules
 
 ### NumPy Fundamentals
