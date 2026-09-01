@@ -112,6 +112,8 @@ Thumbs.db
 
 # Data / outputs (optional - remove if you want to version small datasets)
 data/
+Deep_Learning/CNN/mnist_test.csv
+Deep_Learning/CNN/mnist_train.csv
 *.tsv
 *.parquet
 *.h5
