@@ -286,8 +286,8 @@ Machine Learning/
 
 ### Upcoming Phases 🚧
 
-- [/] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
-- [/] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
+- [x] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
+- [x] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
 - [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(3 notebooks)_
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
 - [ ] **Advanced Deep Learning** — Introduction to TensorFlow/PyTorch
@@ -317,4 +317,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Happy Learning! 🎓**
 
-_Last Updated: August 2026_
+_Last Updated: September 2026_
