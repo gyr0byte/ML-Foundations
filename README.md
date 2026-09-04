@@ -23,6 +23,7 @@
   - [Ensemble Learning](#ensemble-learning)
   - [Model Tuning](#model-tuning)
   - [Deep Learning](#deep-learning)
+  - [Recurrent Neural Networks](#recurrent-neural-networks)
   - [Dimensionality Reduction](#dimensionality-reduction)
   - [NLP (ML approach)](#nlp-ml-approach)
   - [Supervised Learning](#supervised-learning)
@@ -42,7 +43,7 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 
 ## ✨ Features
 
-- ✅ **59 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 3 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
+- ✅ **60 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 4 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -107,6 +108,7 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 - Try NLP notebooks in `NLP( ML approach )/bag_of_words.ipynb` and `NLP( ML approach )/emotion_prediction.ipynb`, then review the supporting model and dataset files in the same folder.
 - Continue with `Deep_Learning/ANN/basic_neural_network.ipynb` and `Deep_Learning/ANN/small_project.ipynb`.
 - Explore CNN with `Deep_Learning/CNN/cnn.ipynb`.
+- Learn recurrent neural network basics with `Deep_Learning/RNN/1_rnn_basics.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -145,9 +147,14 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 
 ### Deep Learning
 
-- 3 notebooks spanning `Deep_Learning/ANN/` and `Deep_Learning/CNN/`:
+- 4 notebooks spanning `Deep_Learning/ANN/`, `Deep_Learning/CNN/`, and `Deep_Learning/RNN/`:
   - 2 ANN notebooks covering a basic neural network and a small deep learning project.
   - 1 CNN notebook covering convolutional neural networks.
+  - 1 RNN notebook covering recurrent neural network basics.
+
+### Recurrent Neural Networks
+
+- 1 notebook in `Deep_Learning/RNN/` introducing recurrent neural network concepts.
 
 ### Supervised Learning
 
@@ -249,7 +256,9 @@ Machine Learning/
 |   |   |-- basic_neural_network.ipynb      # Basic neural network example
 |   |   `-- small_project.ipynb             # Small deep learning project
 |   `-- CNN/                                # Convolutional neural networks
-|       `-- cnn.ipynb                       # CNN model training and evaluation
+|   |   `-- cnn.ipynb                       # CNN model training and evaluation
+|   `-- RNN/                                # Recurrent neural networks
+|       `-- 1_rnn_basics.ipynb              # RNN basics
 |-- Supervised_Learning/                    # Supervised learning notebooks
 |   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
 |   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
@@ -288,7 +297,7 @@ Machine Learning/
 
 - [x] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
 - [x] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
-- [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(3 notebooks)_
+- [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(4 notebooks)_
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
 - [ ] **Advanced Deep Learning** — Introduction to TensorFlow/PyTorch
 
