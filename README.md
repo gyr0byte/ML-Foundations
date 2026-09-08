@@ -43,7 +43,7 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 
 ## ✨ Features
 
-- ✅ **60 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 4 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
+- ✅ **61 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 
@@ -109,6 +109,7 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 - Continue with `Deep_Learning/ANN/basic_neural_network.ipynb` and `Deep_Learning/ANN/small_project.ipynb`.
 - Explore CNN with `Deep_Learning/CNN/cnn.ipynb`.
 - Learn recurrent neural network basics with `Deep_Learning/RNN/1_rnn_basics.ipynb`.
+- Continue with LSTM and GRU architectures in `Deep_Learning/RNN/2_lstm_and_gru.ipynb`.
 
 ## 📖 Learning Modules
 
@@ -147,14 +148,14 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 
 ### Deep Learning
 
-- 4 notebooks spanning `Deep_Learning/ANN/`, `Deep_Learning/CNN/`, and `Deep_Learning/RNN/`:
+- 5 notebooks spanning `Deep_Learning/ANN/`, `Deep_Learning/CNN/`, and `Deep_Learning/RNN/`:
   - 2 ANN notebooks covering a basic neural network and a small deep learning project.
   - 1 CNN notebook covering convolutional neural networks.
-  - 1 RNN notebook covering recurrent neural network basics.
+  - 2 RNN notebooks covering recurrent neural networks, LSTM, and GRU architectures.
 
 ### Recurrent Neural Networks
 
-- 1 notebook in `Deep_Learning/RNN/` introducing recurrent neural network concepts.
+- 2 notebooks in `Deep_Learning/RNN/` introducing recurrent neural networks, LSTM, and GRU architectures.
 
 ### Supervised Learning
 
@@ -258,7 +259,8 @@ Machine Learning/
 |   `-- CNN/                                # Convolutional neural networks
 |   |   `-- cnn.ipynb                       # CNN model training and evaluation
 |   `-- RNN/                                # Recurrent neural networks
-|       `-- 1_rnn_basics.ipynb              # RNN basics
+|       |-- 1_rnn_basics.ipynb              # RNN basics
+|       `-- 2_lstm_and_gru.ipynb            # LSTM and GRU architectures
 |-- Supervised_Learning/                    # Supervised learning notebooks
 |   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
 |   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
@@ -297,7 +299,7 @@ Machine Learning/
 
 - [x] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
 - [x] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
-- [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(4 notebooks)_
+- [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(5 notebooks)_
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
 - [ ] **Advanced Deep Learning** — Introduction to TensorFlow/PyTorch
 
