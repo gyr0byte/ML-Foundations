@@ -37,15 +37,16 @@
 
 Notebook-first workspace for building strong ML foundations with short, focused lessons and runnable examples.
 
-### Current Phase: Specialized ML Topics ✨
+### Project Status: Complete ✅
 
-Current focus: **Deep learning, ensemble learning, model tuning, and supervised/unsupervised learning**.
+The complete learning path from Python and NumPy fundamentals through machine learning and deep learning is finished. This repository is no longer under active development.
 
 ## ✨ Features
 
 - ✅ **61 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
+- ✅ **Complete** — the planned ML and DL learning series is finished
 
 ## 🔧 Prerequisites & Setup
 
@@ -284,7 +285,7 @@ Machine Learning/
 
 ## 🗺️ Roadmap
 
-### Current Phase ✅
+### Completed Learning Path ✅
 
 - [x] NumPy fundamentals (13 modules)
 - [x] NumPy exercises (3 notebooks)
@@ -296,14 +297,10 @@ Machine Learning/
 - [x] Ensemble Learning (3 notebooks)
 - [x] Model Tuning (2 notebooks)
 
-### Upcoming Phases 🚧
-
 - [x] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
 - [x] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
 - [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(5 notebooks)_
 - [x] **Recurrent Neural Networks** — RNN, LSTM, and GRU architectures _(2 notebooks)_
-- [ ] **Mini-Projects** — End-to-end projects combining all skills
-- [ ] **Advanced Deep Learning** — Introduction to TensorFlow/PyTorch
 
 ## 🏆 Best Practices
 
