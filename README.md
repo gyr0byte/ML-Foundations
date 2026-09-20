@@ -5,6 +5,10 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 ![NumPy](https://img.shields.io/badge/NumPy-Latest-blueviolet?logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-Latest-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Latest-11557c?logo=matplotlib)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-Latest-f7931e?logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Latest-ff6f00?logo=tensorflow&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
 ## 📋 Table of Contents
