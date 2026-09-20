@@ -1,6 +1,6 @@
-# 🚀 Machine Learning Fundamentals
+# 🚀 Completed Machine Learning & Deep Learning Series
 
-> A comprehensive, hands-on learning repository documenting the journey from Python and NumPy fundamentals to practical machine learning implementation.
+> A completed, hands-on learning series covering Python, NumPy, machine learning, and deep learning through practical notebooks and projects.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
