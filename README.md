@@ -300,6 +300,7 @@ Machine Learning/
 - [x] **Supervised Learning** — Logistic regression and classification workflows _(2 notebooks)_
 - [x] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
 - [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(5 notebooks)_
+- [x] **Recurrent Neural Networks** — RNN, LSTM, and GRU architectures _(2 notebooks)_
 - [ ] **Mini-Projects** — End-to-end projects combining all skills
 - [ ] **Advanced Deep Learning** — Introduction to TensorFlow/PyTorch
 
