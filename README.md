@@ -155,7 +155,8 @@ Current focus: **Deep learning, ensemble learning, model tuning, and supervised/
 
 ### Recurrent Neural Networks
 
-- 2 notebooks in `Deep_Learning/RNN/` introducing recurrent neural networks, LSTM, and GRU architectures.
+- 2 completed notebooks in `Deep_Learning/RNN/` covering recurrent neural networks, LSTM, and GRU architectures.
+- `Deep_Learning/RNN/2_lstm_and_gru.ipynb` is complete.
 
 ### Supervised Learning
 
