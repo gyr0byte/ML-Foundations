@@ -2,6 +2,7 @@ import joblib
 import pandas as pd
 import streamlit as st
 
+# Temporary repository maintenance marker.
 
 model = joblib.load("SVM_heart_model.pkl")
 scaler = joblib.load("scaler.pkl")

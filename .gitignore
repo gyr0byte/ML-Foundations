@@ -1,4 +1,5 @@
 # Python bytecode
+# Temporary repository maintenance marker.
 __pycache__/
 *.py[cod]
 *$py.class
