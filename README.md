@@ -1,7 +1,5 @@
 # 🚀 Completed Machine Learning & Deep Learning Series
 
-<!-- Temporary repository maintenance marker. -->
-
 > A completed, hands-on learning series covering Python, NumPy, machine learning, and deep learning through practical notebooks and projects.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
