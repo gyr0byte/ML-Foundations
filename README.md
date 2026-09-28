@@ -47,7 +47,7 @@ The complete learning path from Python and NumPy fundamentals through machine le
 
 ## ✨ Features
 
-- ✅ **61 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks
+- ✅ **62 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks, 1 Hugging Face Transformers notebook
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Reproducible** — pinned dependencies and setup steps
 - ✅ **Complete** — the planned ML and DL learning series is finished
@@ -115,6 +115,27 @@ The complete learning path from Python and NumPy fundamentals through machine le
 - Explore CNN with `Deep_Learning/CNN/cnn.ipynb`.
 - Learn recurrent neural network basics with `Deep_Learning/RNN/1_rnn_basics.ipynb`.
 - Continue with LSTM and GRU architectures in `Deep_Learning/RNN/2_lstm_and_gru.ipynb`.
+- Explore Hugging Face Transformers with `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb`.
+
+### Hugging Face Transformers Setup
+
+The Hugging Face notebook demonstrates sentiment analysis, zero-shot classification, text generation, fill-mask prediction, named-entity recognition, summarization, and translation with Transformer pipelines.
+
+It is recommended to run this notebook in **Google Colab with a GPU runtime**. Some examples download large pretrained models and can require substantial RAM, disk space, and processing time on a local CPU.
+
+#### Google Colab
+
+1. Open `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb` in Google Colab.
+2. Select **Runtime > Change runtime type** and choose a GPU, such as **T4 GPU**, when available.
+3. Install the project dependencies in a Colab cell:
+
+   ```python
+   !pip install -r requirements.txt
+   ```
+
+4. Run the notebook cells from top to bottom. The first run downloads the required models from Hugging Face and may take several minutes.
+
+For local execution, create the virtual environment described above, install `requirements.txt`, and make sure the machine has enough available memory and disk space for the downloaded models.
 
 ## 📖 Learning Modules
 
@@ -175,6 +196,11 @@ The complete learning path from Python and NumPy fundamentals through machine le
 
 - 2 notebooks in `NLP( ML approach )/` covering bag-of-words and an emotion-prediction example.
 - Supporting files in the same folder include a trained model artifact and dataset text used in the workflow.
+
+### Hugging Face Transformers
+
+- 1 notebook in `LLM_HuggingFace/Chapter1_Transformer_Models/` demonstrating common Transformer pipelines.
+- Google Colab with a GPU runtime is recommended because some pretrained models are large and computationally intensive.
 
 ### Unsupervised Learning
 
