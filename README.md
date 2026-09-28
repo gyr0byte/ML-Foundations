@@ -293,6 +293,9 @@ Machine Learning/
 |   `-- RNN/                                # Recurrent neural networks
 |       |-- 1_rnn_basics.ipynb              # RNN basics
 |       `-- 2_lstm_and_gru.ipynb            # LSTM and GRU architectures
+|-- LLM_HuggingFace/                        # Hugging Face Transformer examples
+|   `-- Chapter1_Transformer_Models/
+|       `-- 1_pipelines_overview.ipynb      # Common Transformer pipelines
 |-- Supervised_Learning/                    # Supervised learning notebooks
 |   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
 |   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
