@@ -30,8 +30,10 @@
   - [Recurrent Neural Networks](#recurrent-neural-networks)
   - [Dimensionality Reduction](#dimensionality-reduction)
   - [NLP (ML approach)](#nlp-ml-approach)
+  - [Hugging Face Transformers](#hugging-face-transformers)
   - [Supervised Learning](#supervised-learning)
   - [Unsupervised Learning](#unsupervised-learning)
+  - [Streamlit App](#streamlit-app)
 - [Roadmap](#roadmap)
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
@@ -41,15 +43,15 @@
 
 Notebook-first workspace for building strong ML foundations with short, focused lessons and runnable examples.
 
-### Project Status: Complete ✅
+### Project Status: Core Curriculum Complete ✅
 
-The complete learning path from Python and NumPy fundamentals through machine learning and deep learning is finished. This repository is no longer under active development.
+The planned learning path from Python and NumPy fundamentals through machine learning, deep learning, NLP, and Transformer pipelines is complete. Documentation and example notebooks may still receive occasional updates.
 
 ## ✨ Features
 
 - ✅ **62 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks, 1 Hugging Face Transformers notebook
 - ✅ **Hands-on** — notebook-first, progressive difficulty
-- ✅ **Reproducible** — pinned dependencies and setup steps
+- ✅ **Setup documented** — dependency installation and environment guidance included
 - ✅ **Complete** — the planned ML and DL learning series is finished
 
 ## 🔧 Prerequisites & Setup
@@ -57,6 +59,7 @@ The complete learning path from Python and NumPy fundamentals through machine le
 ### Requirements
 
 - **Python 3.8+**, **pip**, and **Jupyter Notebook/Lab**
+- A GPU runtime is recommended for the Hugging Face and TensorFlow notebooks.
 
 ### Installation
 
@@ -137,6 +140,17 @@ It is recommended to run this notebook in **Google Colab with a GPU runtime**. S
 
 For local execution, create the virtual environment described above, install `requirements.txt`, and make sure the machine has enough available memory and disk space for the downloaded models.
 
+### Streamlit App
+
+The heart-disease prediction example can be launched from its directory:
+
+```bash
+cd Supervised_Learning
+streamlit run app.py
+```
+
+The app uses the saved model, scaler, and feature-column artifacts in `Supervised_Learning/`. Run it from that directory so the relative file paths resolve correctly.
+
 ## 📖 Learning Modules
 
 ### NumPy Fundamentals
@@ -205,6 +219,10 @@ For local execution, create the virtual environment described above, install `re
 ### Unsupervised Learning
 
 - 2 notebooks in `Unsupervised_Learning/` covering k-means clustering and DBSCAN.
+
+### Streamlit App
+
+- `Supervised_Learning/app.py` provides an interactive heart-disease prediction demo backed by a saved SVM model.
 
 ## 📁 Project Structure
 
@@ -334,6 +352,9 @@ Machine Learning/
 - [x] **Unsupervised Learning** — K-means clustering and DBSCAN _(2 notebooks)_
 - [x] **Deep Learning** — Neural network basics with TensorFlow/Keras _(5 notebooks)_
 - [x] **Recurrent Neural Networks** — RNN, LSTM, and GRU architectures _(2 notebooks)_
+- [x] **Dimensionality Reduction** — PCA _(1 notebook)_
+- [x] **NLP** — Bag-of-words and emotion prediction _(2 notebooks)_
+- [x] **Hugging Face Transformers** — Common pipeline tasks _(1 notebook)_
 
 ## 🏆 Best Practices
 
