@@ -49,7 +49,7 @@ The planned learning path from Python and NumPy fundamentals through machine lea
 
 ## ✨ Features
 
-- ✅ **62 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks, 1 Hugging Face Transformers notebook
+- ✅ **63 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks, 2 Hugging Face Transformers notebooks
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Setup documented** — dependency installation and environment guidance included
 - ✅ **Complete** — the planned ML and DL learning series is finished
@@ -119,10 +119,11 @@ The planned learning path from Python and NumPy fundamentals through machine lea
 - Learn recurrent neural network basics with `Deep_Learning/RNN/1_rnn_basics.ipynb`.
 - Continue with LSTM and GRU architectures in `Deep_Learning/RNN/2_lstm_and_gru.ipynb`.
 - Explore Hugging Face Transformers with `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb`.
+- Learn how pipelines work internally with `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipelibne.ipynb`.
 
 ### Hugging Face Transformers Setup
 
-The Hugging Face notebook demonstrates sentiment analysis, zero-shot classification, text generation, fill-mask prediction, named-entity recognition, summarization, and translation with Transformer pipelines.
+The Hugging Face chapters cover sentiment analysis, zero-shot classification, text generation, fill-mask prediction, named-entity recognition, summarization, translation, tokenization, model inputs, base models, and sequence-classification models.
 
 It is recommended to run this notebook in **Google Colab with a GPU runtime**. Some examples download large pretrained models and can require substantial RAM, disk space, and processing time on a local CPU.
 
@@ -213,7 +214,9 @@ The app uses the saved model, scaler, and feature-column artifacts in `Supervise
 
 ### Hugging Face Transformers
 
-- 1 notebook in `LLM_HuggingFace/Chapter1_Transformer_Models/` demonstrating common Transformer pipelines.
+- 2 notebooks in `LLM_HuggingFace/`:
+  - Chapter 1 introduces common Transformer pipelines.
+  - Chapter 2 explains tokenization, model inputs, `AutoModel`, and `AutoModelForSequenceClassification`.
 - Google Colab with a GPU runtime is recommended because some pretrained models are large and computationally intensive.
 
 ### Unsupervised Learning
@@ -314,6 +317,8 @@ Machine Learning/
 |-- LLM_HuggingFace/                        # Hugging Face Transformer examples
 |   `-- Chapter1_Transformer_Models/
 |       `-- 1_pipelines_overview.ipynb      # Common Transformer pipelines
+|   `-- Chapter2_Using_Transformers/
+|       `-- 1_behind_the_pipelibne.ipynb    # Pipeline internals and model inputs
 |-- Supervised_Learning/                    # Supervised learning notebooks
 |   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
 |   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
@@ -354,7 +359,7 @@ Machine Learning/
 - [x] **Recurrent Neural Networks** — RNN, LSTM, and GRU architectures _(2 notebooks)_
 - [x] **Dimensionality Reduction** — PCA _(1 notebook)_
 - [x] **NLP** — Bag-of-words and emotion prediction _(2 notebooks)_
-- [x] **Hugging Face Transformers** — Common pipeline tasks _(1 notebook)_
+- [x] **Hugging Face Transformers** — Pipelines and pipeline internals _(2 notebooks)_
 
 ## 🏆 Best Practices
 
