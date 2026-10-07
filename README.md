@@ -94,6 +94,10 @@ The planned learning path from Python and NumPy fundamentals through machine lea
    jupyter notebook
    ```
 
+### Running Notebooks
+
+Many notebooks load local datasets with relative paths such as `heart.csv` or `IPL.csv`. Open Jupyter from the folder that contains the notebook and its dataset, or update the dataset path in the notebook before running it. Run cells from top to bottom because later cells often depend on variables, models, or preprocessing created earlier.
+
 ### Getting Started
 
 - Start at `NumPy/1_numpy_arrays.ipynb`, finish NumPy, then move to Pandas.
@@ -129,11 +133,13 @@ It is recommended to run this notebook in **Google Colab with a GPU runtime**. S
 
 #### Google Colab
 
-1. Open `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb` in Google Colab.
+1. Open `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb` or `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipelibne.ipynb` in Google Colab.
 2. Select **Runtime > Change runtime type** and choose a GPU, such as **T4 GPU**, when available.
-3. Install the project dependencies in a Colab cell:
+3. Clone the repository and install its dependencies in a Colab cell:
 
    ```python
+   !git clone https://github.com/gyr0byte/ML-Foundations.git "Machine Learning"
+   %cd "Machine Learning"
    !pip install -r requirements.txt
    ```
 
@@ -151,6 +157,10 @@ streamlit run app.py
 ```
 
 The app uses the saved model, scaler, and feature-column artifacts in `Supervised_Learning/`. Run it from that directory so the relative file paths resolve correctly.
+
+### Data and Model Artifacts
+
+The repository includes the datasets used by the notebooks, but some large datasets and generated model artifacts may be excluded by `.gitignore`. If a referenced file is missing after cloning, rerun the notebook that creates it or obtain the required dataset from its documented source before continuing.
 
 ## 📖 Learning Modules
 
@@ -365,7 +375,7 @@ Machine Learning/
 
 - Follow PEP 8 and use descriptive names
 - Keep cells focused with short markdown context
-- Pin dependencies in `requirements.txt`
+- Keep minimum dependency versions current in `requirements.txt`
 
 ## 🤝 Contributing
 
@@ -386,4 +396,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Happy Learning! 🎓**
 
-_Last Updated: September 2026_
+_Last Updated: October 2026_
