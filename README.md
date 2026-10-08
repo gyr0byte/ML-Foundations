@@ -123,7 +123,7 @@ Many notebooks load local datasets with relative paths such as `heart.csv` or `I
 - Learn recurrent neural network basics with `Deep_Learning/RNN/1_rnn_basics.ipynb`.
 - Continue with LSTM and GRU architectures in `Deep_Learning/RNN/2_lstm_and_gru.ipynb`.
 - Explore Hugging Face Transformers with `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb`.
-- Learn how pipelines work internally with `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipelibne.ipynb`.
+- Learn how pipelines work internally with `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipeline.ipynb`.
 
 ### Hugging Face Transformers Setup
 
@@ -133,7 +133,7 @@ It is recommended to run this notebook in **Google Colab with a GPU runtime**. S
 
 #### Google Colab
 
-1. Open `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb` or `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipelibne.ipynb` in Google Colab.
+1. Open `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb` or `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipeline.ipynb` in Google Colab.
 2. Select **Runtime > Change runtime type** and choose a GPU, such as **T4 GPU**, when available.
 3. Clone the repository and install its dependencies in a Colab cell:
 
@@ -328,7 +328,7 @@ Machine Learning/
 |   `-- Chapter1_Transformer_Models/
 |       `-- 1_pipelines_overview.ipynb      # Common Transformer pipelines
 |   `-- Chapter2_Using_Transformers/
-|       `-- 1_behind_the_pipelibne.ipynb    # Pipeline internals and model inputs
+|       `-- 1_behind_the_pipeline.ipynb      # Pipeline internals and model inputs
 |-- Supervised_Learning/                    # Supervised learning notebooks
 |   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
 |   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
