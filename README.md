@@ -49,7 +49,7 @@ The planned learning path from Python and NumPy fundamentals through machine lea
 
 ## ✨ Features
 
-- ✅ **63 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks, 2 Hugging Face Transformers notebooks
+- ✅ **65 notebooks** — 13 NumPy, 3 NumPy exercises, 10 Pandas, 2 Pandas exercises, 7 Data Viz, 6 Statistics, 3 Foundation projects, 3 Ensemble notebooks, 2 Model Tuning notebooks, 5 Deep Learning notebooks, 2 Supervised notebooks, 2 Unsupervised notebooks, 1 Dimensionality Reduction, 2 NLP notebooks, 4 Hugging Face Transformers notebooks
 - ✅ **Hands-on** — notebook-first, progressive difficulty
 - ✅ **Setup documented** — dependency installation and environment guidance included
 - ✅ **Complete** — the planned ML and DL learning series is finished
@@ -124,6 +124,8 @@ Many notebooks load local datasets with relative paths such as `heart.csv` or `I
 - Continue with LSTM and GRU architectures in `Deep_Learning/RNN/2_lstm_and_gru.ipynb`.
 - Explore Hugging Face Transformers with `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb`.
 - Learn how pipelines work internally with `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipeline.ipynb`.
+- Continue with tokenizer workflows in `LLM_HuggingFace/Chapter2_Using_Transformers/2_tokenizer_pipeline.ipynb`.
+- Learn how to process multiple sequences in `LLM_HuggingFace/Chapter2_Using_Transformers/3_handling_multiple_sequences.ipynb`.
 
 ### Hugging Face Transformers Setup
 
@@ -133,7 +135,7 @@ It is recommended to run this notebook in **Google Colab with a GPU runtime**. S
 
 #### Google Colab
 
-1. Open `LLM_HuggingFace/Chapter1_Transformer_Models/1_pipelines_overview.ipynb` or `LLM_HuggingFace/Chapter2_Using_Transformers/1_behind_the_pipeline.ipynb` in Google Colab.
+1. Open any notebook in `LLM_HuggingFace/Chapter1_Transformer_Models/` or `LLM_HuggingFace/Chapter2_Using_Transformers/` in Google Colab.
 2. Select **Runtime > Change runtime type** and choose a GPU, such as **T4 GPU**, when available.
 3. Clone the repository and install its dependencies in a Colab cell:
 
@@ -224,9 +226,9 @@ The repository includes the datasets used by the notebooks, but some large datas
 
 ### Hugging Face Transformers
 
-- 2 notebooks in `LLM_HuggingFace/`:
+- 4 notebooks in `LLM_HuggingFace/`:
   - Chapter 1 introduces common Transformer pipelines.
-  - Chapter 2 explains tokenization, model inputs, `AutoModel`, and `AutoModelForSequenceClassification`.
+  - Chapter 2 covers pipeline internals, tokenization, model inputs, `AutoModel`, `AutoModelForSequenceClassification`, and multiple-sequence batching.
 - Google Colab with a GPU runtime is recommended because some pretrained models are large and computationally intensive.
 
 ### Unsupervised Learning
@@ -328,7 +330,9 @@ Machine Learning/
 |   `-- Chapter1_Transformer_Models/
 |       `-- 1_pipelines_overview.ipynb      # Common Transformer pipelines
 |   `-- Chapter2_Using_Transformers/
-|       `-- 1_behind_the_pipeline.ipynb      # Pipeline internals and model inputs
+|       |-- 1_behind_the_pipeline.ipynb        # Pipeline internals and model inputs
+|       |-- 2_tokenizer_pipeline.ipynb         # Tokenizer workflows
+|       `-- 3_handling_multiple_sequences.ipynb # Multiple-sequence batching
 |-- Supervised_Learning/                    # Supervised learning notebooks
 |   |-- 1_Logistic_Regression.ipynb         # Logistic regression notebook
 |   |-- 2_heart_disease_pred.ipynb          # Heart-disease prediction notebook
@@ -369,7 +373,7 @@ Machine Learning/
 - [x] **Recurrent Neural Networks** — RNN, LSTM, and GRU architectures _(2 notebooks)_
 - [x] **Dimensionality Reduction** — PCA _(1 notebook)_
 - [x] **NLP** — Bag-of-words and emotion prediction _(2 notebooks)_
-- [x] **Hugging Face Transformers** — Pipelines and pipeline internals _(2 notebooks)_
+- [x] **Hugging Face Transformers** — Pipelines, tokenizers, and batching _(4 notebooks)_
 
 ## 🏆 Best Practices
 
